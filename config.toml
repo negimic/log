@@ -1,6 +1,7 @@
 baseurl = "http://blog.negimic.com/"
 languageCode = "ja-jp"
 title = "negimic blog"
+theme = "casper"
 copyright = "2015 negimic All Rights Reserved"
 # disqusShortname = "negimic"
 
