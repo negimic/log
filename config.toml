@@ -1,0 +1,14 @@
+baseurl = "http://blog.negimic.com/"
+languageCode = "ja-jp"
+title = "negimic blog"
+copyright = "2015 negimic All Rights Reserved"
+# disqusShortname = "negimic"
+
+[params]
+author = "negimic"
+description = "ねぎみくのブログ |ω・)"
+bio = "渋谷で働くフロントエンドエンジニア。３年目突入。"
+googleAnalyticsUserID = "UA-60588073-1"
+
+# [permalinks]
+#   post = "/:slug/"
