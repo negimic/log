@@ -1,9 +1,11 @@
-box: wercker/rvm
+box: wercker/default
 # Build definition
 build:
   steps:
     - arjen/hugo-build:
-        version: 0.12
+        version: "0.14"
+        theme: casper
+        flags: --buildDrafts=true
 deploy:
   steps:
     - lukevivier/gh-pages@0.2.1:
