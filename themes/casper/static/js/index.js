@@ -38,15 +38,15 @@
         $postContent.fitVids();
 
         function updateImageWidth() {
-            var $this = $(this),
-                contentWidth = $postContent.outerWidth(), // Width of the content
-                imageWidth = this.naturalWidth; // Original image resolution
+            // var $this = $(this),
+            //     contentWidth = $postContent.outerWidth(), // Width of the content
+            //     imageWidth = this.naturalWidth; // Original image resolution
 
-            if (imageWidth >= contentWidth) {
-                $this.addClass('full-img');
-            } else {
-                $this.removeClass('full-img');
-            }
+            // if (imageWidth >= contentWidth) {
+            //     $this.addClass('full-img');
+            // } else {
+            //     $this.removeClass('full-img');
+            // }
         }
 
         var $img = $('img').on('load', updateImageWidth);
