@@ -23,14 +23,41 @@ title = "コミットまとめて爽快"
 
 ### コミットまとめる
 
+操作するコミットの個数分の`~`をつける。
 ```zsh
 git rebase -i HEAD~~
 ```
 
-- コミットまとめる方（消える方）を `pick` から `squash` に変更して保存  
-- コミットメッセージ不要なやつをコメントアウト  
-- 禁断のforce push  
-- 完
+コミットまとめる方（消える方）を `pick` から `squash` に変更して保存  
+
+```zsh
+pick b6bedea Change article
+pick 729230c 変更１
+```
+```zsh
+pick b6bedea Change article
+squash 729230c 変更１ // squashに変更
+```
+コミットメッセージ不要なやつをコメントアウト
+
+```zsh
+# This is a combination of 2 commits.
+# The first commit's message is:
+Change article
+# This is the 2nd commit message:
+変更１
+```
+
+```zsh
+# This is a combination of 2 commits.
+# The first commit's message is:
+Change article
+# This is the 2nd commit message:
+# 変更１ // コメントアウトしたよ
+```
+
+禁断のforce push  
+終わり。  
 
 > 参考：
 > [サルでもわかるGit入門](http://www.backlog.jp/git-guide/stepup/stepup7_5.html)
