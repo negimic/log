@@ -1,4 +1,4 @@
-baseurl = "http://blog.negimic.com/"
+baseurl = "http://negimic.github.io/"
 languageCode = "ja-jp"
 title = "negimic blog"
 theme = "casper"
