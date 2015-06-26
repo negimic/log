@@ -10,5 +10,5 @@ deploy:
   steps:
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
-        domain: blog.negimic.com
+        domain: negimic.github.io
         basedir: public
