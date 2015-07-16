@@ -14,7 +14,7 @@
   <nav class="main-nav clearfix">
 {{end}}
     <a class="back-button icon-arrow-left" href="{{ .Site.BaseUrl }}">Home</a>
-    <a class="subscribe-button icon-feed" href="{{ .RSSLink }}">Subscribe</a>
+    {{if .RSSLink}}<a class="subscribe-button icon-feed" href="{{ .RSSLink }}">Subscribe</a>{{end}}
   </nav>
 </header>
 
