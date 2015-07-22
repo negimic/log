@@ -8,7 +8,7 @@ image = ""
 outside = false
 slug = "chrome-tech-talk-night"
 tags = ["google", "勉強会"]
-title = "Chrome Tech Talk Night #8 (～'ω'　)～"
+title = "Chrome Tech Talk Night #8"
 
 +++
 
