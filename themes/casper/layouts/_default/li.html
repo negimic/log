@@ -3,9 +3,11 @@
     <header class="post-header">
         <h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
     </header>
+    {{if .Params.excerpt}}
     <section class="post-excerpt">
         <p>{{ .Params.excerpt }} <a class="read-more" href="{{.RelPermalink}}">&raquo;</a></p>
     </section>
+    {{end}}
     <footer class="post-meta post-meta--li">
         {{if .Site.Params.logo }}
             <img class="author-thumb" src="{{ .Site.BaseUrl }}{{.Site.Params.logo}}" alt="Author image" nopin="nopin" />
