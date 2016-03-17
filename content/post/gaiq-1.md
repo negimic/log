@@ -2,7 +2,7 @@
 bgcolor = false
 comments = true
 date = "2015-06-23T23:29:12+09:00"
-draft = false
+draft = true
 excerpt = ""
 image = ""
 outside = false
