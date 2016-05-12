@@ -13,7 +13,7 @@
       <a class="blog-logo" href="{{.Site.BaseURL}}"><img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="Home" /></a>
   {{end}}
 
-  <a class="menu-button icon-arrow-left" href="{{ .Site.BaseURL }}"><span class="word">Home</span></a>
+  <a class="menu-button home-button icon-arrow-left" href="{{ .Site.BaseURL }}"><span class="word">Home</span></a>
   {{ if .Site.Menus.main }}
       <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
   {{else}}
@@ -24,7 +24,7 @@
 
 
 
-<main class="content" role="main">
+<main class="content post-list " role="main">
 
 
 
