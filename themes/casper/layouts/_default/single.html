@@ -1,13 +1,18 @@
 {{ partial "header.html" . }}
 {{ $baseurl := .Site.BaseURL }}
 
-{{if .Params.image}}
-<header class="main-header post-head" style="background-image: url({{ $baseurl }}{{.Params.image}})">
-  <nav class="main-nav overlay clearfix">
-{{else}}
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
-{{end}}
+  {{if .Params.image}}
+    {{if .Params.outside}}
+    <header class="main-header post-head" style="{{if .Params.bgcolor}}background: {{.Params.bgcolor}};{{end}} background-image: url({{.Params.image}}); background-repeat: no-repeat; background-position: center center;  background-size: 100% auto;">
+      <nav class="main-nav overlay clearfix">
+    {{else}}
+    <header class="main-header post-head" style="{{if .Params.bgcolor}}background: {{.Params.bgcolor}};{{end}} background-image: url({{ $baseurl }}{{.Params.image}}); background-repeat: no-repeat; background-position: center center;  background-size: 100% auto;">
+      <nav class="main-nav overlay clearfix">
+    {{end}}
+  {{else}}
+  <header class="main-header post-head no-cover">
+    <nav class="main-nav clearfix">
+  {{end}}
 
   {{ if .Site.Params.logo }}
       <a class="blog-logo" href="{{.Site.BaseURL}}"><img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="Home" /></a>

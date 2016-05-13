@@ -5,8 +5,9 @@ title = "Post title"
 slug = "post-title"
 tags = ["tag1","tag2"]
 image = ""
+excerpt = ""
+bgcolor = false
 comments = true	# set false to hide Disqus
 share = true	# set false to hide share buttons
 menu= ""		# set "main" to add this content to the main menu
-author = ""
 +++
