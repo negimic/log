@@ -70,9 +70,13 @@
 
     {{ partial "share.html" . }}
 
-    {{ partial "disqus.html" . }}
-
   </footer>
+
+  <section class="post-comment">
+    <h4>Please comment!</h4>
+    {{ partial "disqus.html" . }}
+  </section>
+
 </article>
 
 </main>

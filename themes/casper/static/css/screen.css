@@ -174,6 +174,10 @@ table { border-collapse: collapse; border-spacing: 0; }
 .icon-link:before {
     content: "\f442";
 }
+.icon-chat:before {
+    content: "\f108";
+}
+
 
 
 /* ==========================================================================
@@ -719,7 +723,16 @@ body.nav-opened .nav {
     font-size: 9px;
     margin-right: 6px;
 }
-
+.chat-button {
+    font-size: 5rem;
+    color: #BBC7CC;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+.chat-button:hover {
+    color: #50585D;
+    cursor: pointer;
+}
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
 .scroll-down {
@@ -1088,7 +1101,7 @@ body:not(.post-template) .post-title {
 }
 
 .post-content {
-    margin-bottom: 2rem;
+    margin-bottom: 10rem;
 }
 
 /* Keep images centered, and allow images wider than the main
@@ -1109,12 +1122,22 @@ body:not(.post-template) .post-title {
     transform: translateX(-50%);
 }
 
+.post-comment {
+    margin: 7rem 0 0 0;
+    padding: 3rem 0 0 0;
+    border-top: #bfc8cd 1px dashed;
+    min-height: 150px;
+}
+.post-comment h4 {
+    font-size: 1.8rem;
+}
+
 /* The author credit area after the post */
 .post-footer {
     position: relative;
-    margin: 6rem 0 0 0;
-    padding: 6rem 0 0 0;
-    /*border-top: #EBF2F6 1px solid;*/
+    margin: 3rem 0 0 0;
+    padding: 3rem 0 0 0;
+    border-top: #bfc8cd 1px dashed;
 }
 
 .post-footer h4 {
@@ -1148,7 +1171,7 @@ body:not(.post-template) .post-title {
 
 /* Create some space to the right for the share links */
 .post-footer .author {
-    margin-right: 180px;
+    margin-right: 210px;
 }
 
 .post-footer h4 a {
@@ -1166,7 +1189,7 @@ body:not(.post-template) .post-title {
    links remain at a fixed width the whole time */
 .post-footer .share {
     position: absolute;
-    top: 6rem;
+    top: 3rem;
     right: 0;
     width: 200px;
 }
@@ -1583,7 +1606,7 @@ body:not(.post-template) .post-title {
     .post-list .post-header {
         margin-bottom: 2.4em;    
         padding-bottom: 2.4em;
-        border-bottom: #EBF2F6 1px dashed;
+        border-bottom: #bfc8cd 1px dashed;
     }
 }
 
@@ -1775,15 +1798,28 @@ body:not(.post-template) .post-title {
         margin-top: 1rem;
     }
 
+    .post-comment {
+        margin: 2rem 0 0 0;
+        padding: 4rem 0 0 0;
+        text-align: center;
+        min-height: 140px;
+    }
+    .chat-button {
+        font-size: 6rem;
+    }
+    .chat-button h4 {
+        margin: 2rem;
+    }
+
     .post-footer {
         padding: 5rem 0 3rem 0;
         text-align: center;
     }
 
     .post-footer .author {
-        margin: 0 0 2rem 0;
-        padding: 0 0 1.6rem 0;
-        border-bottom: #EBF2F6 1px dashed;
+        margin: 0 0 5rem 0;
+        padding: 0 0 4rem 0;
+        border-bottom: #bfc8cd 1px dashed;
     }
 
     .post-footer .share {
