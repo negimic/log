@@ -164,7 +164,13 @@ table { border-collapse: collapse; border-spacing: 0; }
 }
 .icon-arrow-left:before {
     content: "\f431";
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
+
 .icon-stats:before {
     content: "\f508";
 }
@@ -802,6 +808,10 @@ body.nav-opened .nav {
 .menu-button.home-button {
     float: left;
 }
+.menu-button.home-button .word {
+    vertical-align: middle;
+}
+
 .menu-button {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
