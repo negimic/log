@@ -3,7 +3,7 @@ languageCode = "ja-jp"
 title = "negimic blog"
 theme = "casper"
 copyright = "2016 negimic All Rights Reserved"
-# disqusShortname = "negimic"
+disqusShortname = "negimic"
 
 [params]
 author = "negimic"
