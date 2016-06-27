@@ -9,7 +9,7 @@
     </section>
     {{end}}
     <footer class="post-meta">
-        {{$author := index .Site.Data.authors (or .Params.author .Site.Params.author)}}
+        {{$author := index .Site.Data.authors .Params.author }}
         {{ if isset $author "thumbnail" }}
             <img class="author-thumb" src="{{ .Site.BaseURL }}{{ $author.thumbnail }}" alt="Author image" nopin="nopin" />
         {{else if .Site.Params.logo }}
