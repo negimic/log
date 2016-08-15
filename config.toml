@@ -10,7 +10,7 @@ author = "negimic"
 description = "ねぎみくのブログ |ω・)"
 bio = "渋谷で働くフロントエンドエンジニア。４年目突入。"
 googleAnalyticsUserID = "UA-60588073-1"
-cover = "/images/header/1.jpg"
+cover = "/images/header/3.jpg"
 
 # [permalinks]
 #   post = "/:slug/"
