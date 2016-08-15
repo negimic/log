@@ -170,6 +170,11 @@ table { border-collapse: collapse; border-spacing: 0; }
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+.icon-arrow-bottom:before {
+    content: "\f431";
+    display: inline-block;
+    vertical-align: middle;
+}
 
 .icon-stats:before {
     content: "\f508";
@@ -487,6 +492,7 @@ margin on the iframe, cause it breaks stuff. */
 .vertical {
     display: table-cell;
     vertical-align: middle;
+    width: 100%;
 }
 
 /* Wraps the main content & footer */
@@ -519,8 +525,8 @@ body.nav-opened .site-wrapper {
     display: table;
     width: 100%;
     height: 100vh;
-    margin-bottom: 5rem;
     text-align: center;
+
     background: #222 no-repeat center center;
     background-size: cover;
     overflow: hidden;
@@ -529,6 +535,22 @@ body.nav-opened .site-wrapper {
 .main-header .inner {
     width: 80%;
 }
+
+.svg-wrapper {
+    padding-top: 10%;
+    height: 0;
+    position: relative;
+    margin: 3em 0 1em;
+}
+.svg {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 
 .main-nav {
     position: relative;
@@ -830,7 +852,7 @@ body.nav-opened .nav {
     white-space: nowrap;
     border-radius: 3px;
     background: rgba(0,0,0,0.1);
-    transition: all 0.5s ease;
+    /*transition: all 0.5s ease;*/
 }
 .menu-button:focus {
     outline: 0;
@@ -907,7 +929,7 @@ body.nav-opened .menu-button .word {
     font-weight: 400;
     font-family: "Merriweather", serif;
     letter-spacing: 0.01rem;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255,255,255,1);
 }
 
 .no-cover.main-header {
@@ -957,6 +979,9 @@ body.nav-opened .menu-button .word {
     hyphens: auto;
 }
 
+.content-index {
+    padding-top: 1rem;
+}
 .content-index .post {
     border-bottom: #EBF2F6 1px dashed;
 }
@@ -1618,6 +1643,22 @@ body:not(.post-template) .post-title {
         padding-bottom: 2.4em;
         border-bottom: #bfc8cd 1px dashed;
     }
+
+    .svg-wrapper {
+        padding-top: 32%;
+        height: 0;
+        position: relative;
+        margin: 1em 0 0;
+    }
+    .svg {
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
 }
 
 
@@ -1895,6 +1936,22 @@ body:not(.post-template) .post-title {
         padding-bottom: 0.6em;
         border-bottom: #ccc 1px dashed;
     }
+
+    .svg-wrapper {
+        padding-top: 32%;
+        height: 0;
+        position: relative;
+        margin: 1em 0 0;
+    }
+    .svg {
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
 }
 
 
@@ -1963,3 +2020,13 @@ body:not(.post-template) .post-title {
    End of file. Animations should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
    ========================================================================== */
+
+.anm-diff {
+    opacity: 0;
+}
+
+.is-animated {
+    opacity: 0.9;
+    transition: all 0.4s ease;
+}
+
