@@ -1,7 +1,7 @@
 (function(w) {
 
 	// SVG render
-	var $svg = document.getElementById('svg');
+	var headerSVG = document.getElementById('svg');
 	var $diff = $('.anm-diff');
 
 	var requestAnimFrame = function() {
@@ -20,7 +20,11 @@
 	var length = new Array();
 	var rendered = false;
 
-	svg.querySelectorAll('path').forEach(function(path, i) {
+	if (!headerSVG) {
+		return false;
+	} 
+
+	headerSVG.querySelectorAll('path').forEach(function(path, i) {
 		paths[i] = path;
 		var l = paths[i].getTotalLength() + 30;
 		length[i] = l;
