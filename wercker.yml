@@ -1,15 +1,10 @@
-box: debian
-# Build definition
+box: node:latest
 build:
   steps:
     - arjen/hugo-build:
-        version: "0.15"
-        theme: casper
-        flags: --buildDrafts=true
+        version: "0.34"
 deploy:
   steps:
-    - install-packages:
-        packages: git ssh-client
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
         domain: blog.negimic.com
