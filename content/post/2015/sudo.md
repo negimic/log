@@ -7,7 +7,7 @@ excerpt = "このブログを見て1000chさんがアドバイスをしてくれ
 image = ""
 outside = false
 slug = "sudo"
-tags = ["黒い画面", "苦手"]
+tags = ["黒い画面", "苦手", "1000ch", "先輩", "神"]
 title = "sudoからの脱却"
 
 +++
