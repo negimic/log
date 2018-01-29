@@ -71,7 +71,7 @@ title = "テクニカルクリエイター研修"
 写真撮るの忘れました・・・  
 サイトにうっすら載ってました。笑  
 
-![デッサン](../../images/drawing.jpg)  
+![デッサン](../../../images/drawing.jpg)  
 
 
 ##### ◎研修の詳しい様子
@@ -116,7 +116,7 @@ title = "テクニカルクリエイター研修"
 
 ##### 自分の作品  
 
-![平面構成](../../images/heimen.jpg)  
+![平面構成](../../../images/heimen.jpg)  
 
 ##### ◎研修の詳しい様子
  
@@ -151,7 +151,7 @@ title = "テクニカルクリエイター研修"
 
 ###### 作ったロゴ
 
-<img src="../../images/logo_face.png">
+<img src="../../../images/logo_face.png">
 
 先生からのコメント：  
 文字は手書きでゆるい雰囲気なのに、顔の輪郭が正円なのが気になる。  
@@ -178,7 +178,7 @@ title = "テクニカルクリエイター研修"
 
 ###### カーニング
 
-<img src="../../images/kerning.png" style="border:solid 1px #ccc;">
+<img src="../../../images/kerning.png" style="border:solid 1px #ccc;">
 
 先生からのコメント：  
 名前の文字間はいい感じだけど  

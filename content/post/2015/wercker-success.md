@@ -32,7 +32,7 @@ werckerに新規登録して、アプリを登録する。
 アプリ登録の際に気をつけるべきはこれ。  
 → werckerにアプリを登録するとき、dockerを有効にするチェックをOFFにする
 
-![ここのチェックをOFFにする](../../images/wercker-success.png)
+![ここのチェックをOFFにする](../../../images/wercker-success.png)
 
 これのせいですごい悩んだ。。  
 このチェックをOFFです、OFF。
