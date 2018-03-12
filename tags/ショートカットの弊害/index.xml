@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ショートカットの弊害 on negimic blog</title>
+    <link>https://blog.negimic.com/tags/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88%E3%81%AE%E5%BC%8A%E5%AE%B3/</link>
+    <description>Recent content in ショートカットの弊害 on negimic blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>2016 negimic All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 14 Feb 2018 21:02:24 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.negimic.com/tags/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88%E3%81%AE%E5%BC%8A%E5%AE%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Command&#43;Qの恐怖から解放</title>
+      <link>https://blog.negimic.com/post/2018/command-q/</link>
+      <pubDate>Wed, 14 Feb 2018 21:02:24 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2018/command-q/</guid>
+      <description>Command + Q で間違えて強制終了しちゃうのが地味〜にストレスだったので
+なんとかしたくて色々探したというお話。
+
+Chromeの設定 ぴろさんに教えてもらったChromeの設定。
+メニュー → Chrome → 終了する前に警告メッセージを表示する
+にチェックを入れる。
+Chrome で Command + Q をしちゃうと
+残しておきたいタブとかが一気に消えて結構絶望するので
+良い機能だなって思いました！
+ですが私は1000ch先輩からショートカットの義務教育を受けているので
+アプリ切り替えに Command + Tab を使っています。
+このアプリ切り替えをしているときにCommand + Q を押すと
+警告メッセージなしで終了しちゃうんです&amp;hellip;
+なんで Tab と Q って隣なんですかね。
+
+強制終了のキーバインド変える デフォルトのキーバインドから変えたくなかったので（変な癖をつけたくない）
+これは最初から除外していました。
+そういえばもうJIS配列で慣れちゃったけどUS配列にした方がよかったかなぁ
+
+QBlocker 個人的ベストプラクティスはQBlockerでした🎉
+https://qblocker.com/
+Command + Q 長押しで強制終了してくれるアプリ。
+キーバインドもそのままだし、
+Command + Tab のアプリ切り替えのときも守ってくれる！
+長押しの時間も、除外するアプリも設定できるみたい。
+良い感じ〜</description>
+    </item>
+    
+  </channel>
+</rss>

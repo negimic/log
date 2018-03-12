@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ガジェット on negimic blog</title>
+    <link>https://blog.negimic.com/tags/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/</link>
+    <description>Recent content in ガジェット on negimic blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>2016 negimic All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 04 Aug 2015 09:51:31 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.negimic.com/tags/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HHKBをGETした話。</title>
+      <link>https://blog.negimic.com/post/2015/hhkb/</link>
+      <pubDate>Tue, 04 Aug 2015 09:51:31 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/hhkb/</guid>
+      <description> 
+私はOisixの野菜が大好きだ。
+毎週月曜のお昼に社内でOisixのサラダが販売されているが、ほぼ毎回買っている。
+2000円のお試しセットを注文したこともある。
+ミニトマトとブロッコリはOisixで克服した。
+キャンペーン 5月某日。いつものようにサラダを買うと、チラシが入っていた。 &amp;#x300c;&amp;#x30ec;&amp;#x30b7;&amp;#x30d4;&amp;#x3068;&amp;#x30d7;&amp;#x30ed;&amp;#x30b0;&amp;#x30e9;&amp;#x30e0;&amp;#x306f;&amp;#x4f3c;&amp;#x3066;&amp;#x3044;&amp;#x308b;&amp;#x3002;&amp;#x300d;&amp;#x3068;&amp;#x3044;&amp;#x3046;&amp;#x3053;&amp;#x3068;&amp;#x3067;GitHub&amp;#x4e0a;&amp;#x3067;&amp;#x30bd;&amp;#x30fc;&amp;#x30b9;&amp;#x30b3;&amp;#x30fc;&amp;#x30c9;&amp;#x3092;&amp;#x516c;&amp;#x958b;&amp;#x3059;&amp;#x308b;&amp;#x69d8;&amp;#x306b;&amp;#x30b5;&amp;#x30e9;&amp;#x30c0;&amp;#x306e;&amp;#x30ec;&amp;#x30b7;&amp;#x30d4;&amp;#x3092;&amp;#x516c;&amp;#x958b;&amp;#x3057;&amp;#x3066;&amp;#x307f;&amp;#x307e;&amp;#x3057;&amp;#x305f;&amp;#x3002;&amp;#x5f53;&amp;#x30ad;&amp;#x30e3;&amp;#x30f3;&amp;#x30da;&amp;#x30fc;&amp;#x30f3;&amp;#x306f;&amp;#x3001;GihHub&amp;#x306b;&amp;#x30bd;&amp;#x30fc;&amp;#x30b9;&amp;#x30b3;&amp;#x30fc;&amp;#x30c9;&amp;#x3068;&amp;#x3057;&amp;#x3066;&amp;#x516c;&amp;#x958b;&amp;#x3057;&amp;#x305f;&amp;#x300c;20&amp;#x7a2e;&amp;#x985e;&amp;#x306e;&amp;#x91ce;&amp;#x83dc;&amp;#x3068;&amp;#x30b8;&amp;#x30e5;&amp;#x30fc;&amp;#x30b7;&amp;#x30fc;&amp;#x30c1;&amp;#x30ad;&amp;#x30f3;&amp;#x306e;&amp;#x5f69;&amp;#x308a;&amp;#x30b5;&amp;#x30e9;&amp;#x30c0;&amp;#x300d;&amp;#x306e;&amp;#x30ec;&amp;#x30b7;&amp;hellip;
+Posted by オイシックス システム部 on&amp;nbsp;2015年3月31日
+
+エンジニア向けのキャンペーンのチラシだった。
+賞品はHHKB。お高いキーボードだ。
+最初、enchantjsで野菜のゲームを作り始めた。
+エンディングはパッと決まったが、ルールを考えるのが面倒くさくて途中で断念した。
+ほんとゲーム作り向いてないｗ
+次に、その時期マイブームだった糖質制限に着目した。
+Oisixのサラダは美味しいが、ドレッシングやカボチャなどの糖質が気になっていた。
+世間的にも糖質制限がブームになっているので、糖質制限を取り入れたメニューを作ったら売れるんじゃないか？と思いレシピを考えた。
+結果、私はHHKBを手に入れた。
+糖質制限のレシピが審査員に響いた！というわけではなく、
+単に応募者が私だけだったというオチ。笑
+貢ぎ癖 あ。タグの #貢ぎ癖 ・・・結局このHHKBは 彼（エンジニア）にあげましたｗ 喜んでくれたし、Realforceと交換してくれたし、ハッピー(∩´∀｀)∩ (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = &#34;//connect.facebook.net/ja_JP/sdk.js#xfbml=1&amp;version=v2.3&#34;; fjs.parentNode.insertBefore(js, fjs);}(document, &#39;script&#39;, &#39;facebook-jssdk&#39;)); </description>
+    </item>
+    
+  </channel>
+</rss>

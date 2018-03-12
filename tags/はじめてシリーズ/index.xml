@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>はじめてシリーズ on negimic blog</title>
+    <link>https://blog.negimic.com/tags/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/</link>
+    <description>Recent content in はじめてシリーズ on negimic blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>2016 negimic All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 12 Mar 2015 21:48:46 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.negimic.com/tags/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>はじめてのGitHub Pages</title>
+      <link>https://blog.negimic.com/post/2015/github_pages/</link>
+      <pubDate>Thu, 12 Mar 2015 21:48:46 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/github_pages/</guid>
+      <description>このブログを作るにあたって、初めてGitHub Pagesを使ってみました。
+今までタイミングがなくて使ったことなかったけど、やってみたらすごく簡単だった。
+出来ることが増えると嬉しいなぁ。( ´ω` )ほくほく
+以下、備忘録として手順を残します。
+1. リポジトリを作成する GitHub Pages
+GitHubで、GitHub Pages用のリポジトリを作成する。
+[username] / [username].github.io
+2. リポジトリをcloneする する。
+3. html等リモートにpushする する。
+参考サイトでgh-pagesブランチ作るって書いてたけどmasterに上げたら見れた。
+プロジェクトのページとユーザのページの違いかなぁ。後で調べる。
+4. ページが見れるよ！ http://[username].github.io/ にアクセスするとページができてる。
+|ω・｀)oO(え、なんで「㌻」表記&amp;hellip;casper先生やめてください&amp;hellip;
+番外編 独自ドメインを設定する 昔お名前ドットコムで取得したドメインをずっと持て余してたのでこのブログに設定してみました。
+コチラ↓の記事を参考にさせてもらいました。
+ 自分のGitHub Pagesと独自ドメインの設定方法
+ 記事の通りにDNSの設定をする。
+CNAMEという名前のファイルを作り、自分の持ってるドメイン ex. blog.negimic.com を記述する。 リポジトリにPUSHする。
+設定後、しばらく待ったら独自ドメインでページ開けました( •́ㅂ•̀)و</description>
+    </item>
+    
+  </channel>
+</rss>

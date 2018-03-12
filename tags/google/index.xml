@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google on negimic blog</title>
+    <link>https://blog.negimic.com/tags/google/</link>
+    <description>Recent content in Google on negimic blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>2016 negimic All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 16 Jul 2015 19:26:26 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.negimic.com/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chrome Tech Talk Night #8</title>
+      <link>https://blog.negimic.com/post/2015/chrome-tech-talk-night/</link>
+      <pubDate>Thu, 16 Jul 2015 19:26:26 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/chrome-tech-talk-night/</guid>
+      <description>Googleのスゴイ人の話を聞きにきたよ。英語すぎてやばい。
+PolymerやService Worker、Material Design Liteの話をしてくれるらしいので
+がんばって聞くよ。
+Future of web apps speaker: Matt Gaunt
+chromeアプリを開いたときにホームに追加する？って出るのは
+オフラインでも動くの。
+これはwebページからservice workerにアクセスしてるよ。
+service workerは情報をキャッシュしてて、そこにアクセスしてるよ。
+service workerには色んな機能があるよ。
+push notification
+他
+Building production Polymer apps on google speaker: Eric Bidelman
+web componentで色々作れるよっ！
+https://santatracker.google.com/#village
+googleのこのページもPolymerで作ったよー
+- PolymerでのSPAの作り方（templateの使い方？） jsでidを切り替えるだけで簡単にhtml差し替えられるよ！ - オフラインGA オフラインの時はservice workerに送っといて、次にオンラインになったら通信する。
+オフラインの場合でブックマークしても次にオンラインになったときにシンクする。
+Material Design for the Web speaker: Addy Osmani
+＿人人人人人人人人人人人人人人＿
+＞　オフライン対応大事！！！　＜
+￣Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^￣
+スライド Offline apps with Polymer and Service Worker speaker: Jeffrey Posnick &amp;amp; Mat Scales 東京はネット(4G)繋がって良いよね！</description>
+    </item>
+    
+  </channel>
+</rss>

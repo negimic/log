@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>課題図書 on negimic blog</title>
+    <link>https://blog.negimic.com/tags/%E8%AA%B2%E9%A1%8C%E5%9B%B3%E6%9B%B8/</link>
+    <description>Recent content in 課題図書 on negimic blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>2016 negimic All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 31 Jan 2018 22:24:24 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.negimic.com/tags/%E8%AA%B2%E9%A1%8C%E5%9B%B3%E6%9B%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>『Webを支える技術 -HTTP、URI、HTML、そしてREST』を読んだよ</title>
+      <link>https://blog.negimic.com/post/2018/book-01/</link>
+      <pubDate>Wed, 31 Jan 2018 22:24:24 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2018/book-01/</guid>
+      <description>Webの基礎が分かってなさすぎて、先輩が課題を出してくれました。
+1月中に読もうね、って言われて今日(1&amp;frasl;31)に読み終わりました。
+夏休みの宿題のパターン&amp;hellip;！ｗ
+※読んですぐ本返しちゃったので記憶だけで書いてますｗ
+※なんか変なこと書いてたらツッコミしてください
+
+なに書いてたか雰囲気 どうして Web が世界中で使われるのか？
+最低限ギリギリの簡単なルールだけを決めたから！！！
+っていろんなところに書いてたので印象に残りました
+最低限ギリギリの簡単なルール = REST
+っていうのがWebの根幹の決めゴトで、それを守って技術の規格を決めていった〜
+
+URI, HTTP, ハイパーメディア URI
+リソースの場所を示すための規格
+HTTP
+通信の規格
+ハイパーメディア(HTML)
+文章に限らず色んなリソースを組み合わせて構成されたメディア
+
+はじめて知ったメモ///  base要素
+ URIの不透明性（URIの拡張子っぽいやつは拡張子じゃない…！など）
+ OPTIONSの役割
+  
+いまだによく分かってないことメモ あとで！あとで調べる！！！
+ HTTPヘッダ
+ TCP/IP
+ RESTful
+  
+ざっくり感想 5年近くWebの世界でフロントやってるけど、はじめましてな情報が多くてツライ。
+プロジェクトとかで動かしてみて（困って）、やっと技術を理解しようとする姿勢だからなぁ。たくさん困るしかない
+
+おわり 本読んだら何書けばいいかなぁ
+読書感想文昔から苦手や</description>
+    </item>
+    
+  </channel>
+</rss>

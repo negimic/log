@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ga on negimic blog</title>
+    <link>https://blog.negimic.com/tags/ga/</link>
+    <description>Recent content in Ga on negimic blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>2016 negimic All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 10 Aug 2015 20:18:33 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.negimic.com/tags/ga/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>海外からのアクセスを禁止したい</title>
+      <link>https://blog.negimic.com/post/2015/access-only-japan/</link>
+      <pubDate>Mon, 10 Aug 2015 20:18:33 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/access-only-japan/</guid>
+      <description>このブログのGoogleアナリティクスを眺めてたら、
+海外からのアクセスがすごい多くて&amp;hellip;(´・ω・｀)
+極度のビビリ症なので「何か攻撃仕掛けられてるんじゃないか&amp;hellip;」と、被害妄想に陥り
+海外からのアクセスをシャットアウトしたいと思った次第です。
+
+こんな感じのアクセス 海外多い・・・日本語でしか書いてないのに何で？
+
+IP制限 最初に思い付いたのが、日本のIPだけアクセスを許可するやつで、htaccessを使ってアクセス制限する方法です。
+以下のサイトを参考にやってみました。
+IPアドレスで日本国外(海外/外国)からのアクセスを制限する
+アクセス制限できたのかは不明。。海外のIPに偽装してサイトをチェックできるchromeアドオン入れてみたけど動かなかった&amp;hellip;もういいや。
+（追記：3日くらい経ってもru等からのアクセスあるからたぶん失敗だ^q^）
+
+リファラスパム GAでリファラ見ていたらfloatingほげほげ的なサイトからのアクセスが大量にあって（しかも直帰ばかり）、なんだろう〜と思ったらリファラスパムというものらしい。
+なんか怖いしデータ見づらいのでそいつを除外したい。
+リファラースパムリスト Google Analytics
+リファラースパム！？Google Analyticsでのアクセス数の伸びに注意！
+この辺を参考に、フィルタを作った。今度はうまくいくかな〜〜
+
+GAIQ&amp;hellip; GAIQ取ったけどGAの何を見たら良いのかよくわからん〜
+view数のばしたいわけでもないし・・・うーん。。</description>
+    </item>
+    
+    <item>
+      <title>GAIQとったどー(∩´∀｀)∩</title>
+      <link>https://blog.negimic.com/post/2015/gaiq/</link>
+      <pubDate>Tue, 21 Jul 2015 12:33:16 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/gaiq/</guid>
+      <description>社内の流行りが終わってて、自慢する場所がないのでここに書く。笑
+GAIQって？ Googleアナリティクス(GA)の個人認定資格。
+昔は受験するのにお金がかかって問題文も英語だったけど、今では無料 &amp;amp; 日本語に。気軽に受けられるね！
+受験方法とかは詳しく書いてるサイトたくさんあるんでそっち見てください。
+こことか。→ ★
+ドメイン的に公式かと思いきや、違ったｗ
+そして会社名&amp;hellip; 某りんご会社のサービスを思い浮かぶ名前だなぁ&amp;hellip; (遠い目 GAIQに受かるまでにやったこと アカデミーの動画眺める。コレ→ ★
+英語聞き取れない人は日本語の字幕設定した方が楽だよ！
+これのUnit4の2個目までみて飽きた。笑
+そしてそのまま1回も受験せずに1ヶ月くらい放置。笑
+なんとなく、一発合格したかってん&amp;hellip;動画全部見てから受けようと思ってん&amp;hellip;
+そんなこんなで、1ヶ月放置してても一発合格できました( •́ㅂ•̀)وいえーい
+ぶっちゃけ 動画見なくても問題文ぐぐれば半分以上は答え分かる。笑
+ってことで一旦受けてみるのが良いと思う！
+でもこの資格って・・・何に使えるの？щ(ﾟДﾟщ)</description>
+    </item>
+    
+  </channel>
+</rss>

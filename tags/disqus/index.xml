@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Disqus on negimic blog</title>
+    <link>https://blog.negimic.com/tags/disqus/</link>
+    <description>Recent content in Disqus on negimic blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>2016 negimic All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 20 May 2016 19:03:07 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.negimic.com/tags/disqus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>disqusってみた</title>
+      <link>https://blog.negimic.com/post/2016/disqus/</link>
+      <pubDate>Fri, 20 May 2016 19:03:07 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2016/disqus/</guid>
+      <description>disqusでアカウント作って、
+configにdisqusShortnameを書くだけで導入終わり。
+簡単( •́ㅂ•̀)و
+ついでに隠蔽 ページロード時は非表示にしといて、ボタン押したらコメント欄を出すように変更する。
+直す場所 disqusを読み込んでいる部分。
+/themes/casper/layouts/partials/disqus.html  {{ if ne .Params.comments false}} {{ if .Site.DisqusShortname }} &amp;lt;div id=&amp;quot;disqus_thread&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt; var disqus_shortname = &#39;{{ .Site.DisqusShortname }}&#39;; var disqus_url = &#39;{{ .Permalink }}&#39;; (function() { var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true; dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;; (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq); })(); &amp;lt;/script&amp;gt; &amp;lt;noscript&amp;gt;Please enable JavaScript to view the &amp;lt;a href=&amp;quot;https://disqus.com/?ref_noscript&amp;quot;&amp;gt;comments powered by Disqus.</description>
+    </item>
+    
+  </channel>
+</rss>

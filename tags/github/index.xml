@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on negimic blog</title>
+    <link>https://blog.negimic.com/tags/github/</link>
+    <description>Recent content in Github on negimic blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>2016 negimic All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 28 May 2015 14:29:15 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.negimic.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>chromeでgithubが見れなくなった時の対処</title>
+      <link>https://blog.negimic.com/post/2015/chrome-github-error/</link>
+      <pubDate>Thu, 28 May 2015 14:29:15 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/chrome-github-error/</guid>
+      <description> いつのまにかchromeでgithubが見れなくなってたｗ
+firefoxで見れるからいいや〜って放置してましたが、
+ちょっと時間ができたのでちゃんと直そうと思い立ちまして。
+プロキシの設定かな〜と思って前に調べたけどよくわからなかったんです..( ･᷄ὢ･᷅ )
+結局は証明書の期限切れだったので、それを消したら直った。
+直し方 以下のサイトを参考に。ってかまんまこれ。笑
+ SSLエラーでgithubに接続できない場合の対処法(2014-07-27)
+ このサイトまで辿りつくのが大変だったんすよ・・・（エラー読め
+ キーチェーンアクセス（アプリケーション）を開く 表示 ＞ 有効期限の過ぎた証明書を表示 をクリック &amp;ldquo;DigiCert High Assurance EV Root CA&amp;rdquo; を削除  これで無事githubが見れるようになりました(∩´∀｀)∩わーい
+知らない単語・用語メモ そのうち調べる、、、はず(～&amp;rsquo;ω&amp;rsquo;　)～
+ 証明書 ssl  </description>
+    </item>
+    
+    <item>
+      <title>はじめてのGitHub Pages</title>
+      <link>https://blog.negimic.com/post/2015/github_pages/</link>
+      <pubDate>Thu, 12 Mar 2015 21:48:46 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/github_pages/</guid>
+      <description>このブログを作るにあたって、初めてGitHub Pagesを使ってみました。
+今までタイミングがなくて使ったことなかったけど、やってみたらすごく簡単だった。
+出来ることが増えると嬉しいなぁ。( ´ω` )ほくほく
+以下、備忘録として手順を残します。
+1. リポジトリを作成する GitHub Pages
+GitHubで、GitHub Pages用のリポジトリを作成する。
+[username] / [username].github.io
+2. リポジトリをcloneする する。
+3. html等リモートにpushする する。
+参考サイトでgh-pagesブランチ作るって書いてたけどmasterに上げたら見れた。
+プロジェクトのページとユーザのページの違いかなぁ。後で調べる。
+4. ページが見れるよ！ http://[username].github.io/ にアクセスするとページができてる。
+|ω・｀)oO(え、なんで「㌻」表記&amp;hellip;casper先生やめてください&amp;hellip;
+番外編 独自ドメインを設定する 昔お名前ドットコムで取得したドメインをずっと持て余してたのでこのブログに設定してみました。
+コチラ↓の記事を参考にさせてもらいました。
+ 自分のGitHub Pagesと独自ドメインの設定方法
+ 記事の通りにDNSの設定をする。
+CNAMEという名前のファイルを作り、自分の持ってるドメイン ex. blog.negimic.com を記述する。 リポジトリにPUSHする。
+設定後、しばらく待ったら独自ドメインでページ開けました( •́ㅂ•̀)و</description>
+    </item>
+    
+  </channel>
+</rss>

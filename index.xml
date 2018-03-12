@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>negimic blog</title>
+    <link>https://blog.negimic.com/</link>
+    <description>Recent content on negimic blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>2016 negimic All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 14 Feb 2018 21:02:24 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.negimic.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Command&#43;Qの恐怖から解放</title>
+      <link>https://blog.negimic.com/post/2018/command-q/</link>
+      <pubDate>Wed, 14 Feb 2018 21:02:24 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2018/command-q/</guid>
+      <description>Command + Q で間違えて強制終了しちゃうのが地味〜にストレスだったので
+なんとかしたくて色々探したというお話。
+
+Chromeの設定 ぴろさんに教えてもらったChromeの設定。
+メニュー → Chrome → 終了する前に警告メッセージを表示する
+にチェックを入れる。
+Chrome で Command + Q をしちゃうと
+残しておきたいタブとかが一気に消えて結構絶望するので
+良い機能だなって思いました！
+ですが私は1000ch先輩からショートカットの義務教育を受けているので
+アプリ切り替えに Command + Tab を使っています。
+このアプリ切り替えをしているときにCommand + Q を押すと
+警告メッセージなしで終了しちゃうんです&amp;hellip;
+なんで Tab と Q って隣なんですかね。
+
+強制終了のキーバインド変える デフォルトのキーバインドから変えたくなかったので（変な癖をつけたくない）
+これは最初から除外していました。
+そういえばもうJIS配列で慣れちゃったけどUS配列にした方がよかったかなぁ
+
+QBlocker 個人的ベストプラクティスはQBlockerでした🎉
+https://qblocker.com/
+Command + Q 長押しで強制終了してくれるアプリ。
+キーバインドもそのままだし、
+Command + Tab のアプリ切り替えのときも守ってくれる！
+長押しの時間も、除外するアプリも設定できるみたい。
+良い感じ〜</description>
+    </item>
+    
+    <item>
+      <title>『Webを支える技術 -HTTP、URI、HTML、そしてREST』を読んだよ</title>
+      <link>https://blog.negimic.com/post/2018/book-01/</link>
+      <pubDate>Wed, 31 Jan 2018 22:24:24 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2018/book-01/</guid>
+      <description>Webの基礎が分かってなさすぎて、先輩が課題を出してくれました。
+1月中に読もうね、って言われて今日(1&amp;frasl;31)に読み終わりました。
+夏休みの宿題のパターン&amp;hellip;！ｗ
+※読んですぐ本返しちゃったので記憶だけで書いてますｗ
+※なんか変なこと書いてたらツッコミしてください
+
+なに書いてたか雰囲気 どうして Web が世界中で使われるのか？
+最低限ギリギリの簡単なルールだけを決めたから！！！
+っていろんなところに書いてたので印象に残りました
+最低限ギリギリの簡単なルール = REST
+っていうのがWebの根幹の決めゴトで、それを守って技術の規格を決めていった〜
+
+URI, HTTP, ハイパーメディア URI
+リソースの場所を示すための規格
+HTTP
+通信の規格
+ハイパーメディア(HTML)
+文章に限らず色んなリソースを組み合わせて構成されたメディア
+
+はじめて知ったメモ///  base要素
+ URIの不透明性（URIの拡張子っぽいやつは拡張子じゃない…！など）
+ OPTIONSの役割
+  
+いまだによく分かってないことメモ あとで！あとで調べる！！！
+ HTTPヘッダ
+ TCP/IP
+ RESTful
+  
+ざっくり感想 5年近くWebの世界でフロントやってるけど、はじめましてな情報が多くてツライ。
+プロジェクトとかで動かしてみて（困って）、やっと技術を理解しようとする姿勢だからなぁ。たくさん困るしかない
+
+おわり 本読んだら何書けばいいかなぁ
+読書感想文昔から苦手や</description>
+    </item>
+    
+    <item>
+      <title>設定で「のそのそ」は改善できる</title>
+      <link>https://blog.negimic.com/post/2018/noso-noso/</link>
+      <pubDate>Mon, 29 Jan 2018 21:02:24 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2018/noso-noso/</guid>
+      <description>はじめに。
+わたしは動きが「のそのそ」しています。
+ずっと親族に言われ続けてきましたが、あまり気にしていませんでした。
+ただ、仕事が遅いのは困りますね。。
+
+1000ch先輩の義務教育 去年の終わり頃からプロジェクトでお世話になっている
+1000ch先輩にショートカットキーやカーソル移動速度などの設定を教えてもらいました。
+（もう5年目なのに&amp;hellip;本当にありがとうございます🙇 ）
+IDEはショートカット使ってすごい速いのにｗ
+って言って教えてくれました。（優しい）
+
+ショートカットキーの義務教育 Dockにカーソルを合わせてアプリケーションの移動をしているのを見て、
+アプリの移動はショートカットキーを使いましょう！と義務教育を提案してくれました。
+アプリケーションの移動
+Command + Tab
+ウィンドウの移動
+Option + Tab
+タブの移動
+Option + Command + ←（→）
+3日くらい経ってもつい癖でDockを使ってしまっていたので、Dockのアプリの大きさを最小にして矯正しましたｗ
+慣れたら絶対ショートカットの方が早い😊
+
+カーソル移動速度の設定 変えられることを知りませんでした💧
+システム環境設定 → キーボード
+（これもAlfredで「キーボード」入力で一発で辿り着けるのを初めて知りました🙌）
+キーのリピート、リピート入力認識までの時間の設定を変えました。
+どっちも最速ｗ
+
+アプリを指定して開くopen $ open . -a [アプリ名]  $ open . -a Visual\ Studio\ Code  とかとか。
+頭文字入れたらTabで候補出てくるし、便利！（Tabで候補はzshの設定かも？）
+そういえばずっとJetBrainsのIDEを使っているのですが、
+謎に充電をドカドカ消費するようになってしまって急遽VSCode使ってます。
+なんでだろ。。
+
+画面のフィッティングアプリ Spectacle を入れました。
+他のアプリのショートカットと競合しないように
+全画面： Option + Command + F</description>
+    </item>
+    
+    <item>
+      <title>おいしいお菓子３選</title>
+      <link>https://blog.negimic.com/post/2018/delicious-sweets/</link>
+      <pubDate>Sun, 28 Jan 2018 16:52:24 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2018/delicious-sweets/</guid>
+      <description>2016年ぶりのブログ。リハビリ〜
+おいしいお菓子を３つ紹介します(｀・ω・´)ｷﾘｯ ←
+
+１）ブリリアントトリュフ 香ばしアーモンド 香ばしいアーモンドの味がするトリュフチョコです。（そのまんま）
+常温で食べるとすぐ溶ける。口どけが良い〜
+社内でひっそり布教中。大人買いする人もチラホラ。
+師匠の奥様にもプレゼントしました。
+（オススメの情報を共有しあっているｗ）
+はまってくれるといいなぁ〜( ＾ω＾ )ﾆｺﾆｺ
+プライム下のローソンで初めて買ったけど、その後なかなか入荷せず(´×ω×`)
+売ってくれ〜
+
+２）ガーナトッポ これも何年も前からオススメしているお菓子です。
+どでかいトッポ。
+期間限定だったので1回姿を消したのですが、
+復活してからは色んなコンビニでよく見かけます。
+めっちゃ売れたので、色んな種類のガーナトッポが出たけど
+この赤いガーナトッポ（ノーマル）が一番美味しいです。
+
+３）黒糖みるく 前のチームの、お菓子コーナーに置いてあって、
+食べたらすごいおいしかったお菓子。
+白い風船のおせんべい × 雪の宿の砂糖蜜
+の黒糖版って感じ。
+軽くて素朴で止まらなくなる〜
+
+おわり こんな感じでゆる〜くブログ再開してみましたｗ
+よろしくどうぞ</description>
+    </item>
+    
+    <item>
+      <title>テクニカルクリエイター研修</title>
+      <link>https://blog.negimic.com/post/2016/technical-creator/</link>
+      <pubDate>Thu, 11 Aug 2016 15:45:58 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2016/technical-creator/</guid>
+      <description>テクニカルクリエイターを目指す社内研修に参加してきました！
+メールが来て即応募したら、参加できることになりました。(∩´∀｀)∩ ラッキー
+
+テクニカルクリエイターとは  主にUIデザインをベースとして、UIアニメーションやインタラクティブな実装に特化した人材 テクニカルクリエイターについて　佐藤 洋介
+ こう書いていたので、アニメーションをやるのかな？って最初は思っていたのですが
+今回の社内研修では、豪華講師陣に「デザインの基礎」を教えていただきました。
+自分はデザインの基礎をやってみたいと思っていたので願ってもないチャンスでした。
+
+研修内容 2016年5月13日〜8月5日の期間、隔週くらいで研修がありました。
+研修の内容は「デッサン」「平面構成」「ロゴ&amp;amp;タイポグラフィ」「レイアウト」「自己紹介PCサイト作成」でした。
+アニメーションやデザインのツールの使い方、といった研修ではなく
+モノの見方や考え方、取り組み方などのデザインの根幹を教えていただきました。
+全体を通して、本当に有意義な研修でした。
+
+#1 デッサン 最初の研修はデッサンでした。モチーフはレモン。🍋
+今回習ったデッサンのポイントは２つ。
+１．とにかく「観察」
+２．アウトラインからの脱却
+とにかく「観察」 無知すぎて恥ずかしいのですが、デッサンは単純に絵を描く訓練かと思っていました。
+デッサンの本当の目的は 「観察力の筋トレ」。
+自分は何も見えてないんだな〜ということに気付かされました。
+反射光の存在に今の今まで全然気付かなかった。
+アウトラインからの脱却 もうひとつのポイントがアウトラインからの脱却です。
+日本人は2Dで捉えがちなので、アウトラインではなく空間の奥行きを意識してデッサンするように言われました。
+デッサンは筋トレ・・・
+自分の作品 写真撮るの忘れました・・・
+サイトにうっすら載ってました。笑
+◎研修の詳しい様子 は、こちらです。↓
+「テクニカルクリエイターを目指すエンジニアのためのデッサン講座」レポート
+エンジニアの大先輩、三島木さんが書いたレポートです。
+すごいエンジニアはレポート書くのもうまいなぁ。
+
+#2 平面構成 前回の研修の最後に、平面構成の課題が出ました。
+その課題の講評をするのが今回の研修内容でした。
+課題 モチーフを「光」「風」「動」をテーマに平面構成をするのが課題でした。
+この課題が難しくて難しくて・・・！！！
+自分の所属チームのデザイナさんに相談しまくってなんとか課題をこなしました。
+課題を終わらせても何やらピンとこず・・・
+講評会 同期のエンジニアよっしーの作品がいい感じ！って言われていて、
+たしかに綺麗だなーとは思ったけど、正直みんなの作品との違いがわからず・・・
+何が良くて何が悪いのか全くわからん！(&amp;lsquo;ω&amp;rsquo;)三( ε: )三(.ω.)三( :3 )ｺﾞﾛｺﾞﾛｺﾞﾛ
+メモメモ わからないなりに、面白いなと思ったことをメモっておきます。
+・何を一番に見せたいか？を決めてそれを表現する
+・均等に無難に作るのは簡単。絶妙なバランスを攻めるのがデザイナの力量
+・結局は綺麗にみせなきゃダメよ</description>
+    </item>
+    
+    <item>
+      <title>虫と戦う技術(ヽ´ω`)</title>
+      <link>https://blog.negimic.com/post/2016/i-hate-insect/</link>
+      <pubDate>Sun, 26 Jun 2016 13:50:26 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2016/i-hate-insect/</guid>
+      <description>夏至も過ぎ、これから本格的な夏がやってきますね。
+虫、嫌い 私は虫が嫌いなので、夏は恐怖の季節です。
+去年は蝉が側頭部に特攻してきて死ぬかと思いました。
+そしてひと夏に２匹くらい玄関先に蝉がいる・・・
+前に玄関先の蝉が怖すぎて家に入れなくて、ホテルに泊まろうとしたら彼に怒られました。笑
+（優しいので家に来てくれました。神。）
+害虫の王様 G がもし家の中に出たら、たぶん北海道に帰ります。さようなら東京。
+
+ってことで虫対策です。 経験上、５mm以上の虫が出たら私には倒せないことが分かっているので
+なるべく虫が来ないように対策をします。
+虫と戦う技術 ＝ 極力遭遇しない技術
+具体策 ・11階以上に住む
+・共用廊下が外に面していない部屋に住む
+・部屋を清潔に保つ
+・キッチン周りに「ムシさんバイバイ」を撒く
+・手作り虫除けスプレーを部屋に撒く
+・木酢液を玄関先に撒く
+っていう感じです。
+上2つは引っ越すときに実行できる対策で、他は今すぐ実行できる対策です。
+引っ越すときに実行 ・11階以上に住む
+・共用廊下が外に面していない部屋に住む
+11階以上が理想ですが、ほとんど物件がないので6階以上を目標にします。
+もし共用廊下が外に面していなければ、蝉の心配が減るので4階以上OKに変わります。
+ちなみに以下のような物件はアウトです。
+・部屋もしくは共用スペースが臭い
+・ゴミを放置している住民がいる
+・築年数がウン十年
+・木造
+・１階部分もしくは隣の建物に食べ物扱うお店が入っている
+高確率で虫が出ます。
+今すぐ実行 ・部屋を清潔に保つ
+・キッチン周りに「ムシさんバイバイ」を撒く
+・手作り虫除けスプレーを部屋に撒く
+・木酢液を玄関先に撒く
+これらはすぐに実行できます。
+春から初夏にかけて対策します。今の時期がラストチャンス。
+今すぐ実行できる対策について細かく書きます。
+
+部屋を清潔に保つ 当たり前ですが、ほこりや食べこぼしが部屋にあると虫がきます。
+掃除機とクイックルワイパーで、なるべく部屋を綺麗に保つ。
+さらにキッチンと洗面台とお風呂は入念に掃除する。
+・キッチンの排水溝ネットは毎日変える
+・ついでに強い洗剤（キッチンハイターとか）をシュッシュして清潔に保つ
+・その日のうちにお皿を洗って、台拭きでキッチン内の水分を拭く
+　（シンクの中もササッと拭いておくと朝には乾いてていい感じ◎）
+全部できなくても、最低でも排水溝掃除は毎日やる。
+キッチン周りに「ムシさんバイバイ」を撒く キッチン周りは特に怖いので、ムシさんバイバイに頼ります。
+ 量が少ないのに高いのでガバガバ使えないのが難点。
+キッチンと玄関先に週１回くらいの頻度で撒いてます。
+手作り虫除けスプレーを部屋に撒く ムシさんバイバイは高いので、部屋で日常的に使う用の虫除けスプレーを自作します。
+レシピ ・無水エタノール 5ml
+・精製水 45ml</description>
+    </item>
+    
+    <item>
+      <title>disqusってみた</title>
+      <link>https://blog.negimic.com/post/2016/disqus/</link>
+      <pubDate>Fri, 20 May 2016 19:03:07 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2016/disqus/</guid>
+      <description>disqusでアカウント作って、
+configにdisqusShortnameを書くだけで導入終わり。
+簡単( •́ㅂ•̀)و
+ついでに隠蔽 ページロード時は非表示にしといて、ボタン押したらコメント欄を出すように変更する。
+直す場所 disqusを読み込んでいる部分。
+/themes/casper/layouts/partials/disqus.html  {{ if ne .Params.comments false}} {{ if .Site.DisqusShortname }} &amp;lt;div id=&amp;quot;disqus_thread&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt; var disqus_shortname = &#39;{{ .Site.DisqusShortname }}&#39;; var disqus_url = &#39;{{ .Permalink }}&#39;; (function() { var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true; dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;; (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq); })(); &amp;lt;/script&amp;gt; &amp;lt;noscript&amp;gt;Please enable JavaScript to view the &amp;lt;a href=&amp;quot;https://disqus.com/?ref_noscript&amp;quot;&amp;gt;comments powered by Disqus.</description>
+    </item>
+    
+    <item>
+      <title>vim &#43; minecraft</title>
+      <link>https://blog.negimic.com/post/2015/viminecraft/</link>
+      <pubDate>Sat, 10 Oct 2015 01:16:30 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/viminecraft/</guid>
+      <description>vimのキータイプ音をminecraftの音にする。
+minecraft 2013年くらいにドはまりしたマインクラフト。
+久々にやってみたのですが、やっぱ面白い！
+マイクラは世界の音が心地いいです。石をカリカリする音とか。
+毎日1時間くらい無心でカリカリして癒されてる。
+1回目のチャレンジ（2013年） 社会人1年目の時、vimは諸事情で苦手意識が強かったのだが
+このブログを読んでかなり興味を持った。
+ 何故プログラミングに効果音は必要なのか、あるいはVimで爆発する方法
+ この記事を見ながらやってみたものの、すぐに挫折。
+そもそもbash/zshとvimの画面の違いもよくわかってなかった気がする。
+ど、どっちも黒い画面だし・・・
+あと困った時に調べる方法もよくわかってなかったような。
+昔は人（師匠）に聞くのが第一手段だったが、今は自分で調べてます！（普通）
+ggrks言われ続けた日々が懐かしい・・・
+
+2回目のチャレンジ（昨日） 冒頭に書いた通り、ひっさびさにminecraftを再開し
+あの記事のことを思い出したのでもっかいチャレンジしてみようと思ったわけです。
+やったこと  vimのバージョンを7.4に上げる .vimrcを書く minecraftダウンロード 音声ファイルを変換
+  vimのバージョンを7.4に上げる あの記事に書いてある通りにやってみたら動かなくて、
+自分のPCのvimを確認した所、バージョンが7.3で古かったので7.4に上げた。
+vimのバージョンの上げ方はこの記事を参考にしました。
+&amp;gt; 初心者がVimをインストールするメモ
+# 移動 $ sudo mv /usr/bin/vim /usr/bin/old_vim # ハードリンクを作成する $ sudo ln /usr/local/Cellar/vim/7.4.903/bin/vim /usr/bin/  
+.vimrcを書く ホームディレクトリに.vimrcを作る。あの記事を参考にしました。
+NeoBundleなるパッケージ管理を使って諸々読み込んだ結果こんな感じになった。
+ .vimrcに書いたパスに音声ファイルを置きます。
+自分の場合は~/Documents/minecraftSounds/配下に、stone1.wavを置く。
+minecraftダウンロード 音声ファイルを持ってくるためにminecraftをダウンロードする。
+- ログインしてダウンロード 昔はmailとpassだけでログインできたのだが、
+久しぶりにログインしようとしたら秘密の質問を聞かれた。
+質問の内容がwhat is your mother&#39;s middle name?</description>
+    </item>
+    
+    <item>
+      <title>セプテンバーさん</title>
+      <link>https://blog.negimic.com/post/2015/september/</link>
+      <pubDate>Sun, 04 Oct 2015 19:55:47 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/september/</guid>
+      <description>10月になってしまいました。9月、1回も更新しなかった・・・！ヤバイ
+ってことで、9月やっていたことのメモ。（言い訳）
+① オウンドブログ こっそりowndを始めて、そっちの更新に夢中になってたｗ
+一応それもブログだし、いい感じの結果も出たので「週一ブログ更新」の目標は一応セーフってことに・・・出来るかな・・・苦笑
+いい感じの結果  アメトピ７回掲載（これはすごいはず）
+ ベストオウンド選出（これはすごいはず）
+ 9月の月間view数が31,500view（これは基準が分からない）
+  9月ベストオウンドサイト
+これに載りました(∩´∀｀)∩
+オウンドのおかげでGAめっちゃ見るようになったのも良かったなー。
+② デザインコンペ 9月はelectronを勉強するつもりだったのですが、結局CAN（社内デザインコンペ）やってました・・・。
+electron先延ばしにしちゃったけど、受賞したから結果オーライ！（なのか？）
+学んだこと - コンセプトっていうか提案の立ち位置をしっかり決める 途中で提案名とかを「カッコイイ」感じにしたくなっちゃったけど、
+「カッコイイ」は本職のデザイナーには勝てないから
+「渋い」「シュール」でいこうと決めた。（アドバイスありがとう）
+- 楽しむ気持ちを忘れない〜 めっちゃ真面目に考えて真剣な案を出すと全然だめで、
+ふざけた感じで出した方がよい結果でるってなんなんだろう。笑
+嬉しいけどちょっと複雑な心境。
+もっと人生ふざけていけばいいのか？
+- 壇上ヤバイ ヤバイっす
+
+まとめ 9月は色々やってみて楽しかったし、知見が広がった気がする。
+幸いにも出来過ぎな良い結果までついてきたし。
+今後もチャンスがあれば色々やってみる姿勢でいきたいな〜。
+でも本業のことも勉強しないと。エンジニア、ちゃんと頑張る。
+ってことで10月は技術ブログ更新します</description>
+    </item>
+    
+    <item>
+      <title>electron はじめました</title>
+      <link>https://blog.negimic.com/post/2015/started-electron/</link>
+      <pubDate>Fri, 21 Aug 2015 20:19:34 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/started-electron/</guid>
+      <description>electron はじめました。この週末で何か１個作ります。宣言。
+とりあえず導入だけやってみたのでメモメモ。
+electron electron(atom-shell)はフロントの技術を使ってクロスブラウザのデスクトップアプリが作れる技術で、node-webkitと似たようなあれ。（って言ったら怒られそう）
+去年のnodefestでぁゃぴさんが神！神！言ってたのがnode-webkitで、
+あの時ぁゃぴさんはこーゆうことを言ってたのか〜〜と今になってフムった。
+
+導入 このページを参考に起動する所までやってみます。
+ Electronでアプリケーションを作ってみよう
+ // インストール npm -g install electron-prebuilt  
+package.json、index.html、main.jsをそれぞれ作る。
+vi package.json vi index.html vi main.js  一旦動かしたいだけなので中身はコピペ。
+
+実行！わくわく！
+electron .  
+鬼エラー！！！
+[0821/190149:ERROR:file_io.cc(30)] read: expected 40, observed 0 [0821/190149:ERROR:http_transport_mac.mm(186)] Could not connect to the server. (NSURLErrorDomain -1004) [0821/190150:WARNING:crash_report_exception_handler.cc(247)] UniversalExceptionRaise com.apple.ReportCrash: (ipc/mig) server died (0xfffffecc)  その後色々試したけど起動せず&amp;hellip;
+もしかしてOS古い？と思い、 家にあった別のPC(Yosemite)で同じやり方でインストールしてみたらあっさり出来た。
+OSX 10.8.5 ダメなのかな
+
+導入完了(?) ということで一旦コピペですが導入完了。</description>
+    </item>
+    
+    <item>
+      <title>sudoからの脱却</title>
+      <link>https://blog.negimic.com/post/2015/sudo/</link>
+      <pubDate>Mon, 17 Aug 2015 20:22:17 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/sudo/</guid>
+      <description>このブログを見て1000chさんがアドバイスをしてくれたのでメモ。先輩優しい!!!!
+そしてどうやってこのブログ見つけたのか気になる&amp;hellip;githubからかな&amp;hellip;
+指摘箇所 「mochaでテスト書くどー٩(　`ω´　)۶」 の、この部分。
+&amp;ldquo;いつものごとく、このままじゃ入らなかったので sudo を付ける。
+普通はsudoなしでインストール出来るのかな・・・私の環境がおかしいのかなぁ。&amp;rdquo;
+やはり毎度sudo必要なのは変らしい。笑
+sudoからの脱却 1000chさんからの助言。
+ mocha(に限らないけど)のインストールでsudo要求されるの、インストール先がroot権限必要なんだと思われる。
+ ふむふむ。
+ふむ？
+nodeをnvmで入れていない説が浮上して確認したのですが、
+結局nvmでnode入れてて、やっぱりよくわからず(´・ω・｀)
+自分でもダメ人間だなぁって思いつつ、
+エラーをチャットに張り付けて先輩に聞いてしまった&amp;hellip;くっ&amp;hellip;
+
+金言 先輩、一瞬で原因を発見。
+ /usr/local/lib/node_modules/gulp にgulpがいらっしゃるのおかしいな
+ /usr/local/lib/node_modules を消したら、
+sudo無しで出来るようになりました(´；ω；｀)ううっ
+
+最後に  最後にnpm install -g mocha gulp bowerあたりを実行して、
+sudo要求されなければねぎみくの身長が伸びる。
+ 噴いたｗ やっぱフロントの先輩はみんなユーモアあるなぁ。
+無事身長のびました！
+
+Disqusの方がいい説  (´・ω・`) &amp;lt; Disqusだったらコメントしてたのにﾅｧ…
+ と言われてしまった・・・ので、変えます！そのうち！</description>
+    </item>
+    
+    <item>
+      <title>海外からのアクセスを禁止したい</title>
+      <link>https://blog.negimic.com/post/2015/access-only-japan/</link>
+      <pubDate>Mon, 10 Aug 2015 20:18:33 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/access-only-japan/</guid>
+      <description>このブログのGoogleアナリティクスを眺めてたら、
+海外からのアクセスがすごい多くて&amp;hellip;(´・ω・｀)
+極度のビビリ症なので「何か攻撃仕掛けられてるんじゃないか&amp;hellip;」と、被害妄想に陥り
+海外からのアクセスをシャットアウトしたいと思った次第です。
+
+こんな感じのアクセス 海外多い・・・日本語でしか書いてないのに何で？
+
+IP制限 最初に思い付いたのが、日本のIPだけアクセスを許可するやつで、htaccessを使ってアクセス制限する方法です。
+以下のサイトを参考にやってみました。
+IPアドレスで日本国外(海外/外国)からのアクセスを制限する
+アクセス制限できたのかは不明。。海外のIPに偽装してサイトをチェックできるchromeアドオン入れてみたけど動かなかった&amp;hellip;もういいや。
+（追記：3日くらい経ってもru等からのアクセスあるからたぶん失敗だ^q^）
+
+リファラスパム GAでリファラ見ていたらfloatingほげほげ的なサイトからのアクセスが大量にあって（しかも直帰ばかり）、なんだろう〜と思ったらリファラスパムというものらしい。
+なんか怖いしデータ見づらいのでそいつを除外したい。
+リファラースパムリスト Google Analytics
+リファラースパム！？Google Analyticsでのアクセス数の伸びに注意！
+この辺を参考に、フィルタを作った。今度はうまくいくかな〜〜
+
+GAIQ&amp;hellip; GAIQ取ったけどGAの何を見たら良いのかよくわからん〜
+view数のばしたいわけでもないし・・・うーん。。</description>
+    </item>
+    
+    <item>
+      <title>HHKBをGETした話。</title>
+      <link>https://blog.negimic.com/post/2015/hhkb/</link>
+      <pubDate>Tue, 04 Aug 2015 09:51:31 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/hhkb/</guid>
+      <description> 
+私はOisixの野菜が大好きだ。
+毎週月曜のお昼に社内でOisixのサラダが販売されているが、ほぼ毎回買っている。
+2000円のお試しセットを注文したこともある。
+ミニトマトとブロッコリはOisixで克服した。
+キャンペーン 5月某日。いつものようにサラダを買うと、チラシが入っていた。 &amp;#x300c;&amp;#x30ec;&amp;#x30b7;&amp;#x30d4;&amp;#x3068;&amp;#x30d7;&amp;#x30ed;&amp;#x30b0;&amp;#x30e9;&amp;#x30e0;&amp;#x306f;&amp;#x4f3c;&amp;#x3066;&amp;#x3044;&amp;#x308b;&amp;#x3002;&amp;#x300d;&amp;#x3068;&amp;#x3044;&amp;#x3046;&amp;#x3053;&amp;#x3068;&amp;#x3067;GitHub&amp;#x4e0a;&amp;#x3067;&amp;#x30bd;&amp;#x30fc;&amp;#x30b9;&amp;#x30b3;&amp;#x30fc;&amp;#x30c9;&amp;#x3092;&amp;#x516c;&amp;#x958b;&amp;#x3059;&amp;#x308b;&amp;#x69d8;&amp;#x306b;&amp;#x30b5;&amp;#x30e9;&amp;#x30c0;&amp;#x306e;&amp;#x30ec;&amp;#x30b7;&amp;#x30d4;&amp;#x3092;&amp;#x516c;&amp;#x958b;&amp;#x3057;&amp;#x3066;&amp;#x307f;&amp;#x307e;&amp;#x3057;&amp;#x305f;&amp;#x3002;&amp;#x5f53;&amp;#x30ad;&amp;#x30e3;&amp;#x30f3;&amp;#x30da;&amp;#x30fc;&amp;#x30f3;&amp;#x306f;&amp;#x3001;GihHub&amp;#x306b;&amp;#x30bd;&amp;#x30fc;&amp;#x30b9;&amp;#x30b3;&amp;#x30fc;&amp;#x30c9;&amp;#x3068;&amp;#x3057;&amp;#x3066;&amp;#x516c;&amp;#x958b;&amp;#x3057;&amp;#x305f;&amp;#x300c;20&amp;#x7a2e;&amp;#x985e;&amp;#x306e;&amp;#x91ce;&amp;#x83dc;&amp;#x3068;&amp;#x30b8;&amp;#x30e5;&amp;#x30fc;&amp;#x30b7;&amp;#x30fc;&amp;#x30c1;&amp;#x30ad;&amp;#x30f3;&amp;#x306e;&amp;#x5f69;&amp;#x308a;&amp;#x30b5;&amp;#x30e9;&amp;#x30c0;&amp;#x300d;&amp;#x306e;&amp;#x30ec;&amp;#x30b7;&amp;hellip;
+Posted by オイシックス システム部 on&amp;nbsp;2015年3月31日
+
+エンジニア向けのキャンペーンのチラシだった。
+賞品はHHKB。お高いキーボードだ。
+最初、enchantjsで野菜のゲームを作り始めた。
+エンディングはパッと決まったが、ルールを考えるのが面倒くさくて途中で断念した。
+ほんとゲーム作り向いてないｗ
+次に、その時期マイブームだった糖質制限に着目した。
+Oisixのサラダは美味しいが、ドレッシングやカボチャなどの糖質が気になっていた。
+世間的にも糖質制限がブームになっているので、糖質制限を取り入れたメニューを作ったら売れるんじゃないか？と思いレシピを考えた。
+結果、私はHHKBを手に入れた。
+糖質制限のレシピが審査員に響いた！というわけではなく、
+単に応募者が私だけだったというオチ。笑
+貢ぎ癖 あ。タグの #貢ぎ癖 ・・・結局このHHKBは 彼（エンジニア）にあげましたｗ 喜んでくれたし、Realforceと交換してくれたし、ハッピー(∩´∀｀)∩ (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = &#34;//connect.facebook.net/ja_JP/sdk.js#xfbml=1&amp;version=v2.3&#34;; fjs.parentNode.insertBefore(js, fjs);}(document, &#39;script&#39;, &#39;facebook-jssdk&#39;)); </description>
+    </item>
+    
+    <item>
+      <title>LIVE BAPA</title>
+      <link>https://blog.negimic.com/post/2015/bapa/</link>
+      <pubDate>Tue, 28 Jul 2015 20:27:06 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/bapa/</guid>
+      <description>7/20にBaPA第二期生の卒業制作展「LIVE BAPA」に行ってきた。
+卒業制作展といってもただの作品展示ではなく、 アイドルコンサートのライブ演出を手がけるというもの。
+きっかけ 土曜の深夜に放送しているTV番組SENSORSでBaPAの連載があり、このライブがあることを知りました。 ここまで参加型な発表は珍しい！と、即チケットを買いました。
+（前売り券は1日で完売したそうです。即決してよかった！）
+&amp;#x3010;2&amp;#x671f;&amp;#x5352;&amp;#x696d;&amp;#x5236;&amp;#x4f5c;LIVE BAPA&amp;#x30c1;&amp;#x30b1;&amp;#x30c3;&amp;#x30c8;&amp;#x767a;&amp;#x58f2;&amp;#x958b;&amp;#x59cb;&amp;#xff01;&amp;#x3011;#&amp;#x30d0;&amp;#x30d1;&amp;#x524d;&amp;#x4ee3;&amp;#x672a;&amp;#x805e;&amp;#x3001;2020&amp;#x5e74;&amp;#x306e;&amp;#x672a;&amp;#x6765;&amp;#x3092;&amp;#x5275;&amp;#x9020;&amp;#x3059;&amp;#x308b;&amp;#x30a4;&amp;#x30f3;&amp;#x30bf;&amp;#x30e9;&amp;#x30af;&amp;#x30c6;&amp;#x30a3;&amp;#x30d6;&amp;#x30e9;&amp;#x30a4;&amp;#x30d6;&amp;#x6f14;&amp;#x51fa;&amp;#x306b;42&amp;#x540d;9&amp;#x30c1;&amp;#x30fc;&amp;#x30e0;&amp;#x306e;&amp;#x751f;&amp;#x5f92;&amp;#x304c;&amp;#x6311;&amp;#x6226;&amp;#x3057;&amp;#x307e;&amp;#x3059;&amp;#xff01;&amp;#x5fdc;&amp;#x63f4;&amp;#x306b;&amp;#x6765;&amp;#x3066;&amp;#x304f;&amp;#x3060;&amp;#x3055;&amp;#x3044;&amp;#x2606;http://livebapa.peatix.com/
+Posted by BAPA on&amp;nbsp;2015年7月8日
+アイドル 初めてのアイドルコンサート。
+しかも名前すら聞いたことのないアイドル。（失礼）
+ガチなオタクもいるだろうし、ついていけるかちょっと不安でした。
+虹のコンキスタドール
+なんかめっちゃかわいかった。キラキラしてた&amp;hellip;
+pixivのアイドルらしい。
+ライブ演出 曲毎に演出の担当チームが入れ替わり、全9チームのライブ演出を体験。
+（虹コンの持ち歌が4,5曲しかないのか、同じ曲が2回ずつ聞けました。笑）
+以下、めっちゃ簡単な作品紹介。
+- sync ring LEDとセンサーが付いた装置を指にくっつけて、スクリーン上に表示される動きと合わせる感じのやつ。（太鼓の達人的な動き）
+左右に手を振る動きが、みんな揃って綺麗だったし楽しかった！
+うろ覚えだけど、最終的に何点だったら良かったのかがよくわかんなかったｗ別にどうでもいいところだけど
+これは汎用性をかなり感じた。会場が一体になったあの楽しさ。しかも簡単な装置で。
+イイネ！
+- コトバズーカ 個人的に面白いなーって思ったのは、コトバズーカ。
+バズーカ（プロダクト自体）の完成度が凄かった。
+ステージ正面にドーンと置かれたでっかいバズーカ。
+それに向かって叫んだ言葉が、ステージ上のスクリーンに飛んでいく。
+オタクが面白すぎたから、その行動を助長してる作品に惹かれたのかも笑
+＿人人人人人人人人人人人人人人人＿
+＞　ようやく出会えたお姫様！！　＜
+￣Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^￣
+（オタク達の掛け声&amp;hellip;！）
+ちっちゃい箱且つアイドルライブだから成り立つのかも。
+こういうライブはオタク（観客）が主役レベルの存在感があるよね。
+欠点はバズーカから飛んでった言葉のフォントがダサかった。笑
+他にも 色々あって楽しかった！
+並びは上演順ではなく、個人的に面白かった順です。
+ カラオケ採点っぽいやつ 玉入れ 山田金太郎ダイエット 推しのページを開いてスマホを振ると推し色の★がスクリーン上に出てくるやつ 君を独占砲 楽器 メッセージを送ったらステージ上に文字が流れるやつ
+  感想 良いなって思ったことと、良くないなって思ったこと。
+Good! 簡単な説明、単純な動作で出来る むしろ説明しなくても出来て、自然な動作だと完璧だよね。
+１位のチームはそのへん完璧だった！
+Bad! 準備に時間がかかると冷める 逆に装置が複雑だと、準備や説明をするのに時間がかかっていた。</description>
+    </item>
+    
+    <item>
+      <title>GAIQとったどー(∩´∀｀)∩</title>
+      <link>https://blog.negimic.com/post/2015/gaiq/</link>
+      <pubDate>Tue, 21 Jul 2015 12:33:16 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/gaiq/</guid>
+      <description>社内の流行りが終わってて、自慢する場所がないのでここに書く。笑
+GAIQって？ Googleアナリティクス(GA)の個人認定資格。
+昔は受験するのにお金がかかって問題文も英語だったけど、今では無料 &amp;amp; 日本語に。気軽に受けられるね！
+受験方法とかは詳しく書いてるサイトたくさんあるんでそっち見てください。
+こことか。→ ★
+ドメイン的に公式かと思いきや、違ったｗ
+そして会社名&amp;hellip; 某りんご会社のサービスを思い浮かぶ名前だなぁ&amp;hellip; (遠い目 GAIQに受かるまでにやったこと アカデミーの動画眺める。コレ→ ★
+英語聞き取れない人は日本語の字幕設定した方が楽だよ！
+これのUnit4の2個目までみて飽きた。笑
+そしてそのまま1回も受験せずに1ヶ月くらい放置。笑
+なんとなく、一発合格したかってん&amp;hellip;動画全部見てから受けようと思ってん&amp;hellip;
+そんなこんなで、1ヶ月放置してても一発合格できました( •́ㅂ•̀)وいえーい
+ぶっちゃけ 動画見なくても問題文ぐぐれば半分以上は答え分かる。笑
+ってことで一旦受けてみるのが良いと思う！
+でもこの資格って・・・何に使えるの？щ(ﾟДﾟщ)</description>
+    </item>
+    
+    <item>
+      <title>Chrome Tech Talk Night #8</title>
+      <link>https://blog.negimic.com/post/2015/chrome-tech-talk-night/</link>
+      <pubDate>Thu, 16 Jul 2015 19:26:26 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/chrome-tech-talk-night/</guid>
+      <description>Googleのスゴイ人の話を聞きにきたよ。英語すぎてやばい。
+PolymerやService Worker、Material Design Liteの話をしてくれるらしいので
+がんばって聞くよ。
+Future of web apps speaker: Matt Gaunt
+chromeアプリを開いたときにホームに追加する？って出るのは
+オフラインでも動くの。
+これはwebページからservice workerにアクセスしてるよ。
+service workerは情報をキャッシュしてて、そこにアクセスしてるよ。
+service workerには色んな機能があるよ。
+push notification
+他
+Building production Polymer apps on google speaker: Eric Bidelman
+web componentで色々作れるよっ！
+https://santatracker.google.com/#village
+googleのこのページもPolymerで作ったよー
+- PolymerでのSPAの作り方（templateの使い方？） jsでidを切り替えるだけで簡単にhtml差し替えられるよ！ - オフラインGA オフラインの時はservice workerに送っといて、次にオンラインになったら通信する。
+オフラインの場合でブックマークしても次にオンラインになったときにシンクする。
+Material Design for the Web speaker: Addy Osmani
+＿人人人人人人人人人人人人人人＿
+＞　オフライン対応大事！！！　＜
+￣Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^￣
+スライド Offline apps with Polymer and Service Worker speaker: Jeffrey Posnick &amp;amp; Mat Scales 東京はネット(4G)繋がって良いよね！</description>
+    </item>
+    
+    <item>
+      <title>werckerでhugoビルド→githubにデプロイ</title>
+      <link>https://blog.negimic.com/post/2015/wercker-success/</link>
+      <pubDate>Mon, 22 Jun 2015 12:13:58 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/wercker-success/</guid>
+      <description>試行錯誤した結果、やり方がわかったので備忘録。
+ hugoでサイト作る。 werckerにアプリを登録 自動デプロイ設定をしてgithubのトークンを登録 wercker.ymlを作ってルートフォルダに置く  
+1. hugoでサイトを作る 簡単。過去の記事参照で。
+あと、publicフォルダはgit管理から外しておく。
+
+2. werckerにアプリを登録 werckerに新規登録して、アプリを登録する。
+アプリ登録の際に気をつけるべきはこれ。
+→ werckerにアプリを登録するとき、dockerを有効にするチェックをOFFにする
+これのせいですごい悩んだ。。
+このチェックをOFFです、OFF。
+
+3. 自動デプロイ設定をしてgithubのトークンを登録 werckerでアプリを登録したら、アプリの設定ページへ。
+以下もろもろ設定する。
+ DEPLOY TARGETSを設定する。 Add deploy targetはCustom deployを選ぶ。 Deploy target nameは適当に分かりやすい名前付ける。 Auto deployはチェックを入れて対象のブランチ名を選ぶ。
+自分はmasterにプッシュしたらデプロイされるようにしました。 Deploy pipelineには、githubで作ったトークンを記述する。
+ここで登録した変数をwercker.ymlで使う（自分はGIT_TOKENで登録）  
+4. プロジェクトのルートフォルダにwercker.ymlを置く 置く。
+box: wercker/default build: steps: - arjen/hugo-build: version: &amp;quot;0.14&amp;quot; theme: casper flags: --buildDrafts=true deploy: steps: - lukevivier/gh-pages@0.2.1: token: $GIT_TOKEN domain: blog.negimic.com basedir: public  domain 部分は、カスタム使ってないなら [username].</description>
+    </item>
+    
+    <item>
+      <title>コミットまとめて爽快</title>
+      <link>https://blog.negimic.com/post/2015/git-rebase/</link>
+      <pubDate>Sat, 20 Jun 2015 23:20:59 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/git-rebase/</guid>
+      <description>入社したばっかりの頃にスエ達に教えてもらったような記憶があるけど、
+なんか怖いし必要に迫られなかったのでずっと使ってなかった(っ´ω`ｃ)ぅぅ
+異動したらなんか変なコミット入れにくくて(っ´ω`ｃ)ぅぅ
+ってことでやってみた！
+
+コミットまとめる 操作するコミットの個数分の~をつける。
+git rebase -i HEAD~~  コミットまとめる方（消える方）を pick から squash に変更して保存
+pick b6bedea Change article pick 729230c 変更１  pick b6bedea Change article squash 729230c 変更１ // squashに変更  コミットメッセージ不要なやつをコメントアウト
+# This is a combination of 2 commits. # The first commit&#39;s message is: Change article # This is the 2nd commit message: 変更１  # This is a combination of 2 commits. # The first commit&#39;s message is: Change article # This is the 2nd commit message: # 変更１ // コメントアウトしたよ  禁断のforce push</description>
+    </item>
+    
+    <item>
+      <title>werckerに再チャレンジ。</title>
+      <link>https://blog.negimic.com/post/2015/wercker/</link>
+      <pubDate>Thu, 18 Jun 2015 22:27:30 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/wercker/</guid>
+      <description>先輩がwerckerを使って自動ビルドしてるのを見て、
+マネしたくなってチャレンジしたけど全然思い通りに動かなくて挫折。
+結局、手動でビルドして生成されたpublicを手動デプロイして運用という、
+なんともゴリゴリなやり方。。
+やっぱちょっとかっこ悪いのでもっかいチャレンジする！
+
+werckerでやりたいこと  theme(casper) を使ってhugoのbuiild github pagesにデプロイ  これだけなんす。 hugoの公式にもやり方書いてるし、werckerのstepも既に在る。 のになんで出来なかったんだろう。。。残念だ。。。
+
+1. theme(casper) を使ってhugoのbuiild 公式にやり方が載ってあったのでラッキー！って思ったらエラー出まくった orz
+エラーをぐぐったら、ドンピシャ感のあるissueに辿り着いた。
+issue
+適当にしか読めてないけど、おそらくbox: wercker/defaultの仕様が変わったようで
+修正を待たないと使えないっぽい。え、そんなことってあるの？
+boxの種類、 wrecker/default と wrecker/rvm と debian を試してみて、 buildのstepちゃんと通ったのがdebianだけだった。
+他のは上記issueと同じ所で止まった。
+んで、debianのままでgh-pagesに自動デプロイ走ったらgitコマンドがないと怒られー・・・詰んだ。
+今日はもう寝る (¦3ꇤ[__]　ふて寝じゃ。
+なんか根本から間違ってる気がするのでまた今度１からやる。
+
+追記 やはり根本から間違ってたｗｗ
+くううううう
+一応完成したので次の記事にまとめる。</description>
+    </item>
+    
+    <item>
+      <title>Hiveを叩くってエンジニアっぽくて素敵。</title>
+      <link>https://blog.negimic.com/post/2015/hive/</link>
+      <pubDate>Mon, 08 Jun 2015 20:00:51 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/hive/</guid>
+      <description>Hiveを使って数値を出すのはフロントのお仕事らしいのでお勉強します。
+前のチームではサーバサイドエンジニア様のお仕事だったな〜・・・
+でもなんだかエンジニアっぽいぞ！わくわく！
+Hive導入 割愛。笑
+というか、環境設定とかしてたら泥沼に陥ってしまいそう&amp;hellip;
+機会があったら今度やってみようかな。
+HiveQL 純粋にHadoopを叩こうとすると複雑?で難しく、
+HiveはHadoopをSQLライクに叩けるように糖衣してくれている子らしいです。
+&amp;ldquo;SQLみたいに簡単にかけるよ！！&amp;rdquo;
+・・・SQLわかんねー(;;;꒪⌓꒪)
+ってことでSQLの書き方を調べる。
+SQL - SELECT SELECT &amp;quot;フィールド名&amp;quot; FROM &amp;quot;テーブル名&amp;quot;;  &amp;ldquo;テーブル&amp;rdquo; から、&amp;rdquo;フィールド&amp;rdquo; を選択し、取得する。
+ sales_table  fruit_type number_of_fruit fruit_sales   apple 1 100   orange 3 450   apple 5 500   grape 2 1000   SELECT fruit_type FROM sales_table;  *fruit_type apple orange apple grape  
+- Distinct 重複した行をまとめる。
+SELECT DISTINCT fruit_type FROM sales_table;  *fruit_type apple orange grape</description>
+    </item>
+    
+    <item>
+      <title>mochaでテスト書くどー٩(　`ω´　)۶</title>
+      <link>https://blog.negimic.com/post/2015/test-with-mocha/</link>
+      <pubDate>Fri, 29 May 2015 20:08:46 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/test-with-mocha/</guid>
+      <description>今までのプロジェクトで書く機会があまりなかったのですが、異動してチャンスが！
+やってみたかったこと BEST3 に入るテストコード（やれよ
+・・・環境変えるって大事だよね！！
+mochaでテスト書いてみようっていう流れ（課題）があったので、乗ってみました。
+世間はreactだのbabelだのwebworkerだの言っておりますが。私はnodeを勉強しまする。笑
+node好きだから嬉しいけどね。
+でもいつか流行に乗れるようになりたいなぁ。新規にアサインされるように実力付けよう。。
+でもまぁ一歩ずつ！諦めたらそこで試合終了！
+mocha導入 Mocha
+$ npm install -g mocha  いつものごとく、このままじゃ入らなかったので sudo を付ける。
+普通はsudoなしでインストール出来るのかな・・・私の環境がおかしいのかなぁ。
+書いてみる まずはMochaのページにあるチュートリアルを実行してみる。
+// test.js var assert = require(&amp;quot;assert&amp;quot;) describe(&#39;Array&#39;, function(){ describe(&#39;#indexOf()&#39;, function(){ it(&#39;should return -1 when the value is not present&#39;, function(){ assert.equal(-1, [1,2,3].indexOf(5)); assert.equal(-1, [1,2,3].indexOf(0)); }) }) })  $ mocha Array #indexOf() ✓ should return -1 when the value is not present 1 passing (6ms)  無事通った(～&amp;rsquo;ω&amp;rsquo;　)～（当たり前</description>
+    </item>
+    
+    <item>
+      <title>chromeでgithubが見れなくなった時の対処</title>
+      <link>https://blog.negimic.com/post/2015/chrome-github-error/</link>
+      <pubDate>Thu, 28 May 2015 14:29:15 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/chrome-github-error/</guid>
+      <description> いつのまにかchromeでgithubが見れなくなってたｗ
+firefoxで見れるからいいや〜って放置してましたが、
+ちょっと時間ができたのでちゃんと直そうと思い立ちまして。
+プロキシの設定かな〜と思って前に調べたけどよくわからなかったんです..( ･᷄ὢ･᷅ )
+結局は証明書の期限切れだったので、それを消したら直った。
+直し方 以下のサイトを参考に。ってかまんまこれ。笑
+ SSLエラーでgithubに接続できない場合の対処法(2014-07-27)
+ このサイトまで辿りつくのが大変だったんすよ・・・（エラー読め
+ キーチェーンアクセス（アプリケーション）を開く 表示 ＞ 有効期限の過ぎた証明書を表示 をクリック &amp;ldquo;DigiCert High Assurance EV Root CA&amp;rdquo; を削除  これで無事githubが見れるようになりました(∩´∀｀)∩わーい
+知らない単語・用語メモ そのうち調べる、、、はず(～&amp;rsquo;ω&amp;rsquo;　)～
+ 証明書 ssl  </description>
+    </item>
+    
+    <item>
+      <title>はじめてのGitHub Pages</title>
+      <link>https://blog.negimic.com/post/2015/github_pages/</link>
+      <pubDate>Thu, 12 Mar 2015 21:48:46 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/github_pages/</guid>
+      <description>このブログを作るにあたって、初めてGitHub Pagesを使ってみました。
+今までタイミングがなくて使ったことなかったけど、やってみたらすごく簡単だった。
+出来ることが増えると嬉しいなぁ。( ´ω` )ほくほく
+以下、備忘録として手順を残します。
+1. リポジトリを作成する GitHub Pages
+GitHubで、GitHub Pages用のリポジトリを作成する。
+[username] / [username].github.io
+2. リポジトリをcloneする する。
+3. html等リモートにpushする する。
+参考サイトでgh-pagesブランチ作るって書いてたけどmasterに上げたら見れた。
+プロジェクトのページとユーザのページの違いかなぁ。後で調べる。
+4. ページが見れるよ！ http://[username].github.io/ にアクセスするとページができてる。
+|ω・｀)oO(え、なんで「㌻」表記&amp;hellip;casper先生やめてください&amp;hellip;
+番外編 独自ドメインを設定する 昔お名前ドットコムで取得したドメインをずっと持て余してたのでこのブログに設定してみました。
+コチラ↓の記事を参考にさせてもらいました。
+ 自分のGitHub Pagesと独自ドメインの設定方法
+ 記事の通りにDNSの設定をする。
+CNAMEという名前のファイルを作り、自分の持ってるドメイン ex. blog.negimic.com を記述する。 リポジトリにPUSHする。
+設定後、しばらく待ったら独自ドメインでページ開けました( •́ㅂ•̀)و</description>
+    </item>
+    
+    <item>
+      <title>hugoでブログ ʕ◔ϖ◔ʔ</title>
+      <link>https://blog.negimic.com/post/2015/hugo/</link>
+      <pubDate>Mon, 09 Mar 2015 19:07:14 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/hugo/</guid>
+      <description>hugoとGitHub Pagesでブログはじめました。
+node.jsが好きなので Ghost にしようか悩んだのですが、goを使ってみたかったのと、偉大な先輩方がhugo移行の記事を書いていたので、hugoでブログを作ることにしました。（実際はgo全然使わなかったｗ）
+以下、備忘録。
+1. hugoをインストール Hugo Quickstart Guide
+2分で開始できるhugoのクイックスタートガイド。
+homebrewで入れました。
+$ brew install hugo  なにやらエラーが出たのでbrew updateします。
+$ brew update  brew updateでもまたエラー。うー。
+以下のサイトを参考にエラーを解消。
+ 【Homebrew】updateの時にgitのエラーがでた
+ hugoインストール完了。
+2. 新しいサイトを作成する $ hugo new site [path]  $ tree . ├── archetypes ├── config.toml ├── content ├── data ├── layouts └── static  こんな感じのフォルダ群が出来るよ。
+3. テーマを設定 テーマをダウンロードする。
+使いたいthemeをcloneすればいいのですが、わたしは全部持ってきました。
+（テーマを一覧で見れるページが見つからなかったので）
+themesディレクトリを作ってgit clone。
+// 全部もりっと $ git clone --recursive https://github.</description>
+    </item>
+    
+  </channel>
+</rss>

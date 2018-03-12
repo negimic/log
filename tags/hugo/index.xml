@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on negimic blog</title>
+    <link>https://blog.negimic.com/tags/hugo/</link>
+    <description>Recent content in Hugo on negimic blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>2016 negimic All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 09 Mar 2015 19:07:14 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.negimic.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>hugoでブログ ʕ◔ϖ◔ʔ</title>
+      <link>https://blog.negimic.com/post/2015/hugo/</link>
+      <pubDate>Mon, 09 Mar 2015 19:07:14 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/hugo/</guid>
+      <description>hugoとGitHub Pagesでブログはじめました。
+node.jsが好きなので Ghost にしようか悩んだのですが、goを使ってみたかったのと、偉大な先輩方がhugo移行の記事を書いていたので、hugoでブログを作ることにしました。（実際はgo全然使わなかったｗ）
+以下、備忘録。
+1. hugoをインストール Hugo Quickstart Guide
+2分で開始できるhugoのクイックスタートガイド。
+homebrewで入れました。
+$ brew install hugo  なにやらエラーが出たのでbrew updateします。
+$ brew update  brew updateでもまたエラー。うー。
+以下のサイトを参考にエラーを解消。
+ 【Homebrew】updateの時にgitのエラーがでた
+ hugoインストール完了。
+2. 新しいサイトを作成する $ hugo new site [path]  $ tree . ├── archetypes ├── config.toml ├── content ├── data ├── layouts └── static  こんな感じのフォルダ群が出来るよ。
+3. テーマを設定 テーマをダウンロードする。
+使いたいthemeをcloneすればいいのですが、わたしは全部持ってきました。
+（テーマを一覧で見れるページが見つからなかったので）
+themesディレクトリを作ってgit clone。
+// 全部もりっと $ git clone --recursive https://github.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mocha on negimic blog</title>
+    <link>https://blog.negimic.com/tags/mocha/</link>
+    <description>Recent content in Mocha on negimic blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>2016 negimic All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 29 May 2015 20:08:46 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.negimic.com/tags/mocha/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>mochaでテスト書くどー٩(　`ω´　)۶</title>
+      <link>https://blog.negimic.com/post/2015/test-with-mocha/</link>
+      <pubDate>Fri, 29 May 2015 20:08:46 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/test-with-mocha/</guid>
+      <description>今までのプロジェクトで書く機会があまりなかったのですが、異動してチャンスが！
+やってみたかったこと BEST3 に入るテストコード（やれよ
+・・・環境変えるって大事だよね！！
+mochaでテスト書いてみようっていう流れ（課題）があったので、乗ってみました。
+世間はreactだのbabelだのwebworkerだの言っておりますが。私はnodeを勉強しまする。笑
+node好きだから嬉しいけどね。
+でもいつか流行に乗れるようになりたいなぁ。新規にアサインされるように実力付けよう。。
+でもまぁ一歩ずつ！諦めたらそこで試合終了！
+mocha導入 Mocha
+$ npm install -g mocha  いつものごとく、このままじゃ入らなかったので sudo を付ける。
+普通はsudoなしでインストール出来るのかな・・・私の環境がおかしいのかなぁ。
+書いてみる まずはMochaのページにあるチュートリアルを実行してみる。
+// test.js var assert = require(&amp;quot;assert&amp;quot;) describe(&#39;Array&#39;, function(){ describe(&#39;#indexOf()&#39;, function(){ it(&#39;should return -1 when the value is not present&#39;, function(){ assert.equal(-1, [1,2,3].indexOf(5)); assert.equal(-1, [1,2,3].indexOf(0)); }) }) })  $ mocha Array #indexOf() ✓ should return -1 when the value is not present 1 passing (6ms)  無事通った(～&amp;rsquo;ω&amp;rsquo;　)～（当たり前</description>
+    </item>
+    
+  </channel>
+</rss>

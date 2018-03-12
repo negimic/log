@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>苦手 on negimic blog</title>
+    <link>https://blog.negimic.com/tags/%E8%8B%A6%E6%89%8B/</link>
+    <description>Recent content in 苦手 on negimic blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>2016 negimic All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 17 Aug 2015 20:22:17 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.negimic.com/tags/%E8%8B%A6%E6%89%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>sudoからの脱却</title>
+      <link>https://blog.negimic.com/post/2015/sudo/</link>
+      <pubDate>Mon, 17 Aug 2015 20:22:17 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/sudo/</guid>
+      <description>このブログを見て1000chさんがアドバイスをしてくれたのでメモ。先輩優しい!!!!
+そしてどうやってこのブログ見つけたのか気になる&amp;hellip;githubからかな&amp;hellip;
+指摘箇所 「mochaでテスト書くどー٩(　`ω´　)۶」 の、この部分。
+&amp;ldquo;いつものごとく、このままじゃ入らなかったので sudo を付ける。
+普通はsudoなしでインストール出来るのかな・・・私の環境がおかしいのかなぁ。&amp;rdquo;
+やはり毎度sudo必要なのは変らしい。笑
+sudoからの脱却 1000chさんからの助言。
+ mocha(に限らないけど)のインストールでsudo要求されるの、インストール先がroot権限必要なんだと思われる。
+ ふむふむ。
+ふむ？
+nodeをnvmで入れていない説が浮上して確認したのですが、
+結局nvmでnode入れてて、やっぱりよくわからず(´・ω・｀)
+自分でもダメ人間だなぁって思いつつ、
+エラーをチャットに張り付けて先輩に聞いてしまった&amp;hellip;くっ&amp;hellip;
+
+金言 先輩、一瞬で原因を発見。
+ /usr/local/lib/node_modules/gulp にgulpがいらっしゃるのおかしいな
+ /usr/local/lib/node_modules を消したら、
+sudo無しで出来るようになりました(´；ω；｀)ううっ
+
+最後に  最後にnpm install -g mocha gulp bowerあたりを実行して、
+sudo要求されなければねぎみくの身長が伸びる。
+ 噴いたｗ やっぱフロントの先輩はみんなユーモアあるなぁ。
+無事身長のびました！
+
+Disqusの方がいい説  (´・ω・`) &amp;lt; Disqusだったらコメントしてたのにﾅｧ…
+ と言われてしまった・・・ので、変えます！そのうち！</description>
+    </item>
+    
+  </channel>
+</rss>

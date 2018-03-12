@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" Hiveを叩くってエンジニアっぽくて素敵。 &middot;  negimic blog" />
+  	<meta property="og:site_name" content="negimic blog" />
+  	<meta property="og:url" content="https://blog.negimic.com/post/2015/hive/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2015-06-08T20:00:51&#43;09:00" />
+
+    
+    <meta property="og:article:tag" content="hive" />
+    
+    
+
+  <title>
+     Hiveを叩くってエンジニアっぽくて素敵。 &middot;  negimic blog
+  </title>
+
+    <meta name="description" content="ねぎみくのブログ |ω・)" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://blog.negimic.com/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="https://blog.negimic.com/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="https://blog.negimic.com/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="https://blog.negimic.com/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+    <meta name="generator" content="Hugo 0.34" />
+
+    <link rel="canonical" href="https://blog.negimic.com/post/2015/hive/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-60588073-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+        
+    </ul>
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+  
+  <header class="main-header post-head no-cover">
+  
+
+  <nav class="main-nav clearfix">
+  
+
+      <a class="menu-button home-button icon-arrow-left" href="https://blog.negimic.com/"><span class="word">Home</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content post-list " role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Hiveを叩くってエンジニアっぽくて素敵。</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2015-06-08T20:00:51&#43;09:00">
+            Jun 8, 2015
+          </time>
+        
+         
+          <span class="post-tag small"><a href="https://blog.negimic.com/tags/hive/">#hive</a></span>
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      
+
+<p>Hiveを使って数値を出すのはフロントのお仕事らしいのでお勉強します。<br />
+前のチームではサーバサイドエンジニア様のお仕事だったな〜・・・<br />
+でもなんだかエンジニアっぽいぞ！わくわく！<br><br></p>
+
+<h3 id="hive導入">Hive導入</h3>
+
+<p>割愛。笑<br />
+というか、環境設定とかしてたら泥沼に陥ってしまいそう&hellip;<br />
+機会があったら今度やってみようかな。<br><br></p>
+
+<h3 id="hiveql">HiveQL</h3>
+
+<p>純粋にHadoopを叩こうとすると複雑?で難しく、<br />
+HiveはHadoopをSQLライクに叩けるように糖衣してくれている子らしいです。</p>
+
+<p>&ldquo;SQLみたいに簡単にかけるよ！！&rdquo;</p>
+
+<p>・・・SQLわかんねー(;;;꒪⌓꒪)<br />
+ってことでSQLの書き方を調べる。<br><br></p>
+
+<h3 id="sql">SQL</h3>
+
+<h4 id="select"><strong>- SELECT</strong></h4>
+
+<pre><code class="language-sql">SELECT &quot;フィールド名&quot; FROM &quot;テーブル名&quot;;
+</code></pre>
+
+<p>&ldquo;テーブル&rdquo; から、&rdquo;フィールド&rdquo; を選択し、取得する。</p>
+
+<table>
+  <caption>sales_table</caption>
+  <tr>
+    <th>fruit_type</th>
+    <th>number_of_fruit</th>
+    <th>fruit_sales</th>
+  </tr>
+  <tr>
+    <td>apple</td>
+    <td>1</td>
+    <td>100</td>
+  </tr>
+  <tr>
+    <td>orange</td>
+    <td>3</td>
+    <td>450</td>
+  </tr>
+  <tr>
+    <td>apple</td>
+    <td>5</td>
+    <td>500</td>
+  </tr>
+  <tr>
+    <td>grape</td>
+    <td>2</td>
+    <td>1000</td>
+  </tr>
+</table>
+
+<pre><code class="language-sql">SELECT fruit_type FROM sales_table;
+</code></pre>
+
+<pre><code class="language-sql">*fruit_type
+apple
+orange
+apple
+grape
+</code></pre>
+
+<p><br></p>
+
+<h4 id="distinct"><strong>- Distinct</strong></h4>
+
+<p>重複した行をまとめる。</p>
+
+<pre><code class="language-sql">SELECT DISTINCT fruit_type FROM sales_table;
+</code></pre>
+
+<pre><code class="language-sql">*fruit_type
+apple
+orange
+grape
+</code></pre>
+
+<p><br></p>
+
+<h4 id="where"><strong>- WHERE</strong></h4>
+
+<p>条件を絞って取得。</p>
+
+<pre><code class="language-sql">SELECT &quot;フィールド名&quot;
+FROM &quot;テーブル名&quot;
+WHERE &quot;条件&quot;;
+</code></pre>
+
+<p>例）売り上げが500円以上のフィールドを取得。</p>
+
+<pre><code class="language-sql">SELECT fruit_type
+FROM sales_table
+WHERE fruit_sales &gt;= 500;
+</code></pre>
+
+<pre><code class="language-sql">*fruit_type
+apple
+grape
+</code></pre>
+
+<p><br></p>
+
+<h4 id="and-or"><strong>- AND/OR</strong></h4>
+
+<p>２つ以上の条件を組み合わせて使う。</p>
+
+<pre><code class="language-sql">SELECT &quot;フィールド名&quot;
+FROM &quot;テーブル名&quot;
+WHERE &quot;簡単条件&quot;
+{[AND|OR] &quot;簡単条件&quot;}+;
+</code></pre>
+
+<p>例）売り上げが300円以上800円未満のフィールドを取得。</p>
+
+<pre><code class="language-sql">SELECT fruit_type
+FROM sales_table
+WHERE fruit_sales &gt;= 300
+AND fruit_sales &lt; 800;
+</code></pre>
+
+<pre><code class="language-sql">*fruit_type
+orange
+apple
+</code></pre>
+
+<p><br></p>
+
+<h4 id="in"><strong>- IN</strong></h4>
+
+<p>複数の条件を省略したやつ。ORで置き換えられる。</p>
+
+<pre><code class="language-sql">SELECT fruit_type
+FROM sales_table
+WHERE fruit_sales IN (100, 450);
+</code></pre>
+
+<pre><code class="language-sql">*fruit_type
+apple
+orange
+</code></pre>
+
+<p><br></p>
+
+<h4 id="between"><strong>- BETWEEN</strong></h4>
+
+<p>INは不連続の値だが、BETWEENはある程度の範囲 (range) 内で見てくれる。</p>
+
+<pre><code class="language-sql">SELECT fruit_type
+FROM sales_table
+WHERE fruit_sales BETWEEN 100 AND 450;
+</code></pre>
+
+<pre><code class="language-sql">*fruit_type
+apple
+orange
+</code></pre>
+
+<p><br></p>
+
+<h4 id="like"><strong>- LIKE</strong></h4>
+
+<p>パターンで取得。</p>
+
+<pre><code class="language-sql">SELECT fruit_type
+FROM sales_table
+WHERE fruit_type LIKE '%ra%';
+</code></pre>
+
+<pre><code class="language-sql">*fruit_type
+orange
+grape
+</code></pre>
+
+<p><br></p>
+
+<h4 id="order-by"><strong>- ORDER BY</strong></h4>
+
+<p>選ばれたデータを昇順(ASC)もしくは降順(DESC)に表示。</p>
+
+<pre><code class="language-sql">SELECT &quot;フィールド名&quot;
+FROM &quot;テーブル名&quot;
+[WHERE &quot;条件&quot;]
+ORDER BY &quot;フィールド名&quot; [ASC, DESC]; // デフォルト: ASC
+</code></pre>
+
+<pre><code class="language-sql">SELECT fruit_type
+FROM sales_table
+ORDER BY fruit_sales DESC
+</code></pre>
+
+<pre><code class="language-sql">*fruit_type
+grape
+apple
+orange
+apple
+</code></pre>
+
+<p><br></p>
+
+<h4 id="関数"><strong>- 関数</strong></h4>
+
+<ul>
+<li>AVG (平均値)</li>
+<li>COUNT (カウント)</li>
+<li>MAX (最大値)</li>
+<li>MIN (最小値)</li>
+<li>SUM (合計値)</li>
+</ul>
+
+<pre><code class="language-sql">SELECT &quot;関数名&quot;(&quot;フィールド名&quot;)
+FROM &quot;テーブル名&quot;;
+</code></pre>
+
+<pre><code class="language-sql">SELECT SUM(fruit_sales)
+FROM sales_table
+</code></pre>
+
+<pre><code class="language-sql">*SUM(fruit_sales)
+2050
+</code></pre>
+
+<p><br></p>
+
+<h4 id="count"><strong>- COUNT</strong></h4>
+
+<p>テーブルの中に読み込まれたデータがどれくらいあるのか、カウントできる。</p>
+
+<pre><code class="language-sql">SELECT COUNT(fruit_type)
+FROM sales_table
+WHERE fruit_sales IS NOT NULL;
+</code></pre>
+
+<pre><code class="language-sql">*COUNT(fruit_type)
+4
+</code></pre>
+
+<p><br></p>
+
+<h4 id="toc_13">**- **</h4>
+
+<p><br><br></p>
+
+<h3 id="ひとりごと">ひとりごと</h3>
+
+<p><small>
+SELECTとかは大文字にした方がいいよって言われてそうしていたけど、社内のwikiを漁ってたら小文字で書いている人もいて、どっちやねん！って思ったので調べたら、<br />
+構文的には大文字小文字どちらでも大丈夫。だが、裏の処理は大文字でやるので変換が無くなる分速くなるから大文字説を唱えている人と、それに反論している人がいて・・・あーこれも宗教か、と思いました。<br />
+</small></p>
+
+<p>見やすいという理由で大文字でいきます。( •́ㅂ•̀)و</p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="https://blog.negimic.com/">negimic</a></h4>
+  
+  <p>渋谷で働くフロントエンドエンジニア。5年目。</p>
+  
+  
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Hive%e3%82%92%e5%8f%a9%e3%81%8f%e3%81%a3%e3%81%a6%e3%82%a8%e3%83%b3%e3%82%b8%e3%83%8b%e3%82%a2%e3%81%a3%e3%81%bd%e3%81%8f%e3%81%a6%e7%b4%a0%e6%95%b5%e3%80%82&amp;url=https%3a%2f%2fblog.negimic.com%2fpost%2f2015%2fhive%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.negimic.com%2fpost%2f2015%2fhive%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.negimic.com%2fpost%2f2015%2fhive%2f&amp;description=Hive%e3%82%92%e5%8f%a9%e3%81%8f%e3%81%a3%e3%81%a6%e3%82%a8%e3%83%b3%e3%82%b8%e3%83%8b%e3%82%a2%e3%81%a3%e3%81%bd%e3%81%8f%e3%81%a6%e7%b4%a0%e6%95%b5%e3%80%82"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fblog.negimic.com%2fpost%2f2015%2fhive%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+  </footer>
+
+  <section class="post-comment">
+    <h4>Please comment!</h4>
+    
+
+<div id="disqus_btn" class="chat-button icon-chat"></div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+	var disqus_shortname = 'negimic';
+	var disqus_url = 'https:\/\/blog.negimic.com\/post\/2015\/hive\/';
+	(function() {
+		var btn = document.getElementById('disqus_btn');
+		btn.addEventListener('click', dsqFnc, false);
+		function dsqFnc() {
+			btn.parentNode.removeChild(btn);
+			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+  </section>
+
+</article>
+
+</main>
+    </div>
+    <script type="text/javascript" src="https://blog.negimic.com/js/jquery.js"></script>
+    <script type="text/javascript" src="https://blog.negimic.com/js/index.js"></script>
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/agate.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+</body>
+</html>
+

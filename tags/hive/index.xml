@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hive on negimic blog</title>
+    <link>https://blog.negimic.com/tags/hive/</link>
+    <description>Recent content in Hive on negimic blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>2016 negimic All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 08 Jun 2015 20:00:51 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.negimic.com/tags/hive/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hiveを叩くってエンジニアっぽくて素敵。</title>
+      <link>https://blog.negimic.com/post/2015/hive/</link>
+      <pubDate>Mon, 08 Jun 2015 20:00:51 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/hive/</guid>
+      <description>Hiveを使って数値を出すのはフロントのお仕事らしいのでお勉強します。
+前のチームではサーバサイドエンジニア様のお仕事だったな〜・・・
+でもなんだかエンジニアっぽいぞ！わくわく！
+Hive導入 割愛。笑
+というか、環境設定とかしてたら泥沼に陥ってしまいそう&amp;hellip;
+機会があったら今度やってみようかな。
+HiveQL 純粋にHadoopを叩こうとすると複雑?で難しく、
+HiveはHadoopをSQLライクに叩けるように糖衣してくれている子らしいです。
+&amp;ldquo;SQLみたいに簡単にかけるよ！！&amp;rdquo;
+・・・SQLわかんねー(;;;꒪⌓꒪)
+ってことでSQLの書き方を調べる。
+SQL - SELECT SELECT &amp;quot;フィールド名&amp;quot; FROM &amp;quot;テーブル名&amp;quot;;  &amp;ldquo;テーブル&amp;rdquo; から、&amp;rdquo;フィールド&amp;rdquo; を選択し、取得する。
+ sales_table  fruit_type number_of_fruit fruit_sales   apple 1 100   orange 3 450   apple 5 500   grape 2 1000   SELECT fruit_type FROM sales_table;  *fruit_type apple orange apple grape  
+- Distinct 重複した行をまとめる。
+SELECT DISTINCT fruit_type FROM sales_table;  *fruit_type apple orange grape</description>
+    </item>
+    
+  </channel>
+</rss>

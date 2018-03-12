@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>義務教育 on negimic blog</title>
+    <link>https://blog.negimic.com/tags/%E7%BE%A9%E5%8B%99%E6%95%99%E8%82%B2/</link>
+    <description>Recent content in 義務教育 on negimic blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>2016 negimic All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 29 Jan 2018 21:02:24 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.negimic.com/tags/%E7%BE%A9%E5%8B%99%E6%95%99%E8%82%B2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>設定で「のそのそ」は改善できる</title>
+      <link>https://blog.negimic.com/post/2018/noso-noso/</link>
+      <pubDate>Mon, 29 Jan 2018 21:02:24 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2018/noso-noso/</guid>
+      <description>はじめに。
+わたしは動きが「のそのそ」しています。
+ずっと親族に言われ続けてきましたが、あまり気にしていませんでした。
+ただ、仕事が遅いのは困りますね。。
+
+1000ch先輩の義務教育 去年の終わり頃からプロジェクトでお世話になっている
+1000ch先輩にショートカットキーやカーソル移動速度などの設定を教えてもらいました。
+（もう5年目なのに&amp;hellip;本当にありがとうございます🙇 ）
+IDEはショートカット使ってすごい速いのにｗ
+って言って教えてくれました。（優しい）
+
+ショートカットキーの義務教育 Dockにカーソルを合わせてアプリケーションの移動をしているのを見て、
+アプリの移動はショートカットキーを使いましょう！と義務教育を提案してくれました。
+アプリケーションの移動
+Command + Tab
+ウィンドウの移動
+Option + Tab
+タブの移動
+Option + Command + ←（→）
+3日くらい経ってもつい癖でDockを使ってしまっていたので、Dockのアプリの大きさを最小にして矯正しましたｗ
+慣れたら絶対ショートカットの方が早い😊
+
+カーソル移動速度の設定 変えられることを知りませんでした💧
+システム環境設定 → キーボード
+（これもAlfredで「キーボード」入力で一発で辿り着けるのを初めて知りました🙌）
+キーのリピート、リピート入力認識までの時間の設定を変えました。
+どっちも最速ｗ
+
+アプリを指定して開くopen $ open . -a [アプリ名]  $ open . -a Visual\ Studio\ Code  とかとか。
+頭文字入れたらTabで候補出てくるし、便利！（Tabで候補はzshの設定かも？）
+そういえばずっとJetBrainsのIDEを使っているのですが、
+謎に充電をドカドカ消費するようになってしまって急遽VSCode使ってます。
+なんでだろ。。
+
+画面のフィッティングアプリ Spectacle を入れました。
+他のアプリのショートカットと競合しないように
+全画面： Option + Command + F</description>
+    </item>
+    
+  </channel>
+</rss>

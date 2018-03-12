@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vim on negimic blog</title>
+    <link>https://blog.negimic.com/tags/vim/</link>
+    <description>Recent content in Vim on negimic blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>2016 negimic All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 10 Oct 2015 01:16:30 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.negimic.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>vim &#43; minecraft</title>
+      <link>https://blog.negimic.com/post/2015/viminecraft/</link>
+      <pubDate>Sat, 10 Oct 2015 01:16:30 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/viminecraft/</guid>
+      <description>vimのキータイプ音をminecraftの音にする。
+minecraft 2013年くらいにドはまりしたマインクラフト。
+久々にやってみたのですが、やっぱ面白い！
+マイクラは世界の音が心地いいです。石をカリカリする音とか。
+毎日1時間くらい無心でカリカリして癒されてる。
+1回目のチャレンジ（2013年） 社会人1年目の時、vimは諸事情で苦手意識が強かったのだが
+このブログを読んでかなり興味を持った。
+ 何故プログラミングに効果音は必要なのか、あるいはVimで爆発する方法
+ この記事を見ながらやってみたものの、すぐに挫折。
+そもそもbash/zshとvimの画面の違いもよくわかってなかった気がする。
+ど、どっちも黒い画面だし・・・
+あと困った時に調べる方法もよくわかってなかったような。
+昔は人（師匠）に聞くのが第一手段だったが、今は自分で調べてます！（普通）
+ggrks言われ続けた日々が懐かしい・・・
+
+2回目のチャレンジ（昨日） 冒頭に書いた通り、ひっさびさにminecraftを再開し
+あの記事のことを思い出したのでもっかいチャレンジしてみようと思ったわけです。
+やったこと  vimのバージョンを7.4に上げる .vimrcを書く minecraftダウンロード 音声ファイルを変換
+  vimのバージョンを7.4に上げる あの記事に書いてある通りにやってみたら動かなくて、
+自分のPCのvimを確認した所、バージョンが7.3で古かったので7.4に上げた。
+vimのバージョンの上げ方はこの記事を参考にしました。
+&amp;gt; 初心者がVimをインストールするメモ
+# 移動 $ sudo mv /usr/bin/vim /usr/bin/old_vim # ハードリンクを作成する $ sudo ln /usr/local/Cellar/vim/7.4.903/bin/vim /usr/bin/  
+.vimrcを書く ホームディレクトリに.vimrcを作る。あの記事を参考にしました。
+NeoBundleなるパッケージ管理を使って諸々読み込んだ結果こんな感じになった。
+ .vimrcに書いたパスに音声ファイルを置きます。
+自分の場合は~/Documents/minecraftSounds/配下に、stone1.wavを置く。
+minecraftダウンロード 音声ファイルを持ってくるためにminecraftをダウンロードする。
+- ログインしてダウンロード 昔はmailとpassだけでログインできたのだが、
+久しぶりにログインしようとしたら秘密の質問を聞かれた。
+質問の内容がwhat is your mother&#39;s middle name?</description>
+    </item>
+    
+  </channel>
+</rss>

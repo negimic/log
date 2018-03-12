@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" Chrome Tech Talk Night #8 &middot;  negimic blog" />
+  	<meta property="og:site_name" content="negimic blog" />
+  	<meta property="og:url" content="https://blog.negimic.com/post/2015/chrome-tech-talk-night/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2015-07-16T19:26:26&#43;09:00" />
+
+    
+    <meta property="og:article:tag" content="google" />
+    
+    <meta property="og:article:tag" content="勉強会" />
+    
+    
+
+  <title>
+     Chrome Tech Talk Night #8 &middot;  negimic blog
+  </title>
+
+    <meta name="description" content="ねぎみくのブログ |ω・)" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://blog.negimic.com/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="https://blog.negimic.com/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="https://blog.negimic.com/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="https://blog.negimic.com/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+    <meta name="generator" content="Hugo 0.34" />
+
+    <link rel="canonical" href="https://blog.negimic.com/post/2015/chrome-tech-talk-night/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-60588073-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+        
+    </ul>
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+  
+  <header class="main-header post-head no-cover">
+  
+
+  <nav class="main-nav clearfix">
+  
+
+      <a class="menu-button home-button icon-arrow-left" href="https://blog.negimic.com/"><span class="word">Home</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content post-list " role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Chrome Tech Talk Night #8</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2015-07-16T19:26:26&#43;09:00">
+            Jul 16, 2015
+          </time>
+        
+         
+          <span class="post-tag small"><a href="https://blog.negimic.com/tags/google/">#google</a></span>
+         
+          <span class="post-tag small"><a href="https://blog.negimic.com/tags/%E5%8B%89%E5%BC%B7%E4%BC%9A/">#勉強会</a></span>
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      
+
+<p>Googleのスゴイ人の話を聞きにきたよ。英語すぎてやばい。<br />
+PolymerやService Worker、Material Design Liteの話をしてくれるらしいので<br />
+がんばって聞くよ。<br />
+<br>
+<br></p>
+
+<h3 id="future-of-web-apps">Future of web apps</h3>
+
+<p>speaker: <a href="https://github.com/gauntface">Matt Gaunt</a><br />
+<br>
+chromeアプリを開いたときにホームに追加する？って出るのは<br />
+オフラインでも動くの。<br />
+<br>
+これはwebページからservice workerにアクセスしてるよ。<br />
+service workerは情報をキャッシュしてて、そこにアクセスしてるよ。<br />
+<br>
+service workerには色んな機能があるよ。<br />
+push notification<br />
+他<br />
+<br>
+<br></p>
+
+<h3 id="building-production-polymer-apps-on-google">Building production Polymer apps on google</h3>
+
+<p>speaker: <a href="https://github.com/ebidel">Eric Bidelman</a><br />
+<br>
+web componentで色々作れるよっ！<br />
+<br>
+<a href="https://santatracker.google.com/#village">https://santatracker.google.com/#village</a><br />
+googleのこのページもPolymerで作ったよー<br />
+<br>
+<br></p>
+
+<h5 id="polymerでのspaの作り方-templateの使い方">- PolymerでのSPAの作り方（templateの使い方？）</h5>
+
+<p>jsでidを切り替えるだけで簡単にhtml差し替えられるよ！
+<br>
+<br></p>
+
+<h5 id="オフラインga">- オフラインGA</h5>
+
+<p>オフラインの時はservice workerに送っといて、次にオンラインになったら通信する。<br />
+<br>
+オフラインの場合でブックマークしても次にオンラインになったときにシンクする。<br />
+<br>
+<br></p>
+
+<h3 id="material-design-for-the-web">Material Design for the Web</h3>
+
+<p>speaker: <a href="https://github.com/addyosmani">Addy Osmani</a><br />
+<br>
+＿人人人人人人人人人人人人人人＿<br />
+＞　オフライン対応大事！！！　＜<br />
+￣Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^￣<br />
+<br>
+<a href="https://dl.dropboxusercontent.com/u/27182/Tokyo_Talk_Thursday.pdf">スライド</a>
+<br>
+<br></p>
+
+<h3 id="offline-apps-with-polymer-and-service-worker">Offline apps with Polymer and Service Worker</h3>
+
+<p>speaker: <a href="https://github.com/jeffposnick">Jeffrey Posnick</a> &amp; <a href="https://github.com/wibblymat">Mat Scales</a>
+<br>
+東京はネット(4G)繋がって良いよね！<br />
+<br>
+＿人人人人人人人人人人人人人人＿<br />
+＞　オフライン対応大事！！！　＜<br />
+￣Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^￣<br />
+<br>
+<br></p>
+
+<p>ダメだ、疲れた。後でスライドとtwitter見よう。。<br />
+<a href="https://twitter.com/hashtag/chromejp?src=hash&amp;vertical=default&amp;f=tweets&amp;lang=ja">#chromejp</a><br />
+<br>
+<br>
+まぁ結論、オフライン対応がんばろうな！！って話だった気がする(～&rsquo;ω&rsquo;　)～
+<br>
+<br></p>
+
+<h3 id="メモ">メモ</h3>
+
+<ul>
+<li>offline（オフラインGA)</li>
+<li>browsersync</li>
+<li>pre-cache</li>
+</ul>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="https://blog.negimic.com/">negimic</a></h4>
+  
+  <p>渋谷で働くフロントエンドエンジニア。5年目。</p>
+  
+  
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Chrome%20Tech%20Talk%20Night%20%238&amp;url=https%3a%2f%2fblog.negimic.com%2fpost%2f2015%2fchrome-tech-talk-night%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.negimic.com%2fpost%2f2015%2fchrome-tech-talk-night%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.negimic.com%2fpost%2f2015%2fchrome-tech-talk-night%2f&amp;description=Chrome%20Tech%20Talk%20Night%20%238"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fblog.negimic.com%2fpost%2f2015%2fchrome-tech-talk-night%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+  </footer>
+
+  <section class="post-comment">
+    <h4>Please comment!</h4>
+    
+
+<div id="disqus_btn" class="chat-button icon-chat"></div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+	var disqus_shortname = 'negimic';
+	var disqus_url = 'https:\/\/blog.negimic.com\/post\/2015\/chrome-tech-talk-night\/';
+	(function() {
+		var btn = document.getElementById('disqus_btn');
+		btn.addEventListener('click', dsqFnc, false);
+		function dsqFnc() {
+			btn.parentNode.removeChild(btn);
+			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+  </section>
+
+</article>
+
+</main>
+    </div>
+    <script type="text/javascript" src="https://blog.negimic.com/js/jquery.js"></script>
+    <script type="text/javascript" src="https://blog.negimic.com/js/index.js"></script>
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/agate.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+</body>
+</html>
+

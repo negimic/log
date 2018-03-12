@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>先輩 on negimic blog</title>
+    <link>https://blog.negimic.com/tags/%E5%85%88%E8%BC%A9/</link>
+    <description>Recent content in 先輩 on negimic blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>2016 negimic All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 29 Jan 2018 21:02:24 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.negimic.com/tags/%E5%85%88%E8%BC%A9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>設定で「のそのそ」は改善できる</title>
+      <link>https://blog.negimic.com/post/2018/noso-noso/</link>
+      <pubDate>Mon, 29 Jan 2018 21:02:24 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2018/noso-noso/</guid>
+      <description>はじめに。
+わたしは動きが「のそのそ」しています。
+ずっと親族に言われ続けてきましたが、あまり気にしていませんでした。
+ただ、仕事が遅いのは困りますね。。
+
+1000ch先輩の義務教育 去年の終わり頃からプロジェクトでお世話になっている
+1000ch先輩にショートカットキーやカーソル移動速度などの設定を教えてもらいました。
+（もう5年目なのに&amp;hellip;本当にありがとうございます🙇 ）
+IDEはショートカット使ってすごい速いのにｗ
+って言って教えてくれました。（優しい）
+
+ショートカットキーの義務教育 Dockにカーソルを合わせてアプリケーションの移動をしているのを見て、
+アプリの移動はショートカットキーを使いましょう！と義務教育を提案してくれました。
+アプリケーションの移動
+Command + Tab
+ウィンドウの移動
+Option + Tab
+タブの移動
+Option + Command + ←（→）
+3日くらい経ってもつい癖でDockを使ってしまっていたので、Dockのアプリの大きさを最小にして矯正しましたｗ
+慣れたら絶対ショートカットの方が早い😊
+
+カーソル移動速度の設定 変えられることを知りませんでした💧
+システム環境設定 → キーボード
+（これもAlfredで「キーボード」入力で一発で辿り着けるのを初めて知りました🙌）
+キーのリピート、リピート入力認識までの時間の設定を変えました。
+どっちも最速ｗ
+
+アプリを指定して開くopen $ open . -a [アプリ名]  $ open . -a Visual\ Studio\ Code  とかとか。
+頭文字入れたらTabで候補出てくるし、便利！（Tabで候補はzshの設定かも？）
+そういえばずっとJetBrainsのIDEを使っているのですが、
+謎に充電をドカドカ消費するようになってしまって急遽VSCode使ってます。
+なんでだろ。。
+
+画面のフィッティングアプリ Spectacle を入れました。
+他のアプリのショートカットと競合しないように
+全画面： Option + Command + F</description>
+    </item>
+    
+    <item>
+      <title>sudoからの脱却</title>
+      <link>https://blog.negimic.com/post/2015/sudo/</link>
+      <pubDate>Mon, 17 Aug 2015 20:22:17 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/sudo/</guid>
+      <description>このブログを見て1000chさんがアドバイスをしてくれたのでメモ。先輩優しい!!!!
+そしてどうやってこのブログ見つけたのか気になる&amp;hellip;githubからかな&amp;hellip;
+指摘箇所 「mochaでテスト書くどー٩(　`ω´　)۶」 の、この部分。
+&amp;ldquo;いつものごとく、このままじゃ入らなかったので sudo を付ける。
+普通はsudoなしでインストール出来るのかな・・・私の環境がおかしいのかなぁ。&amp;rdquo;
+やはり毎度sudo必要なのは変らしい。笑
+sudoからの脱却 1000chさんからの助言。
+ mocha(に限らないけど)のインストールでsudo要求されるの、インストール先がroot権限必要なんだと思われる。
+ ふむふむ。
+ふむ？
+nodeをnvmで入れていない説が浮上して確認したのですが、
+結局nvmでnode入れてて、やっぱりよくわからず(´・ω・｀)
+自分でもダメ人間だなぁって思いつつ、
+エラーをチャットに張り付けて先輩に聞いてしまった&amp;hellip;くっ&amp;hellip;
+
+金言 先輩、一瞬で原因を発見。
+ /usr/local/lib/node_modules/gulp にgulpがいらっしゃるのおかしいな
+ /usr/local/lib/node_modules を消したら、
+sudo無しで出来るようになりました(´；ω；｀)ううっ
+
+最後に  最後にnpm install -g mocha gulp bowerあたりを実行して、
+sudo要求されなければねぎみくの身長が伸びる。
+ 噴いたｗ やっぱフロントの先輩はみんなユーモアあるなぁ。
+無事身長のびました！
+
+Disqusの方がいい説  (´・ω・`) &amp;lt; Disqusだったらコメントしてたのにﾅｧ…
+ と言われてしまった・・・ので、変えます！そのうち！</description>
+    </item>
+    
+  </channel>
+</rss>

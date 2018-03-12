@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Electron on negimic blog</title>
+    <link>https://blog.negimic.com/tags/electron/</link>
+    <description>Recent content in Electron on negimic blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>2016 negimic All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 21 Aug 2015 20:19:34 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.negimic.com/tags/electron/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>electron はじめました</title>
+      <link>https://blog.negimic.com/post/2015/started-electron/</link>
+      <pubDate>Fri, 21 Aug 2015 20:19:34 +0900</pubDate>
+      
+      <guid>https://blog.negimic.com/post/2015/started-electron/</guid>
+      <description>electron はじめました。この週末で何か１個作ります。宣言。
+とりあえず導入だけやってみたのでメモメモ。
+electron electron(atom-shell)はフロントの技術を使ってクロスブラウザのデスクトップアプリが作れる技術で、node-webkitと似たようなあれ。（って言ったら怒られそう）
+去年のnodefestでぁゃぴさんが神！神！言ってたのがnode-webkitで、
+あの時ぁゃぴさんはこーゆうことを言ってたのか〜〜と今になってフムった。
+
+導入 このページを参考に起動する所までやってみます。
+ Electronでアプリケーションを作ってみよう
+ // インストール npm -g install electron-prebuilt  
+package.json、index.html、main.jsをそれぞれ作る。
+vi package.json vi index.html vi main.js  一旦動かしたいだけなので中身はコピペ。
+
+実行！わくわく！
+electron .  
+鬼エラー！！！
+[0821/190149:ERROR:file_io.cc(30)] read: expected 40, observed 0 [0821/190149:ERROR:http_transport_mac.mm(186)] Could not connect to the server. (NSURLErrorDomain -1004) [0821/190150:WARNING:crash_report_exception_handler.cc(247)] UniversalExceptionRaise com.apple.ReportCrash: (ipc/mig) server died (0xfffffecc)  その後色々試したけど起動せず&amp;hellip;
+もしかしてOS古い？と思い、 家にあった別のPC(Yosemite)で同じやり方でインストールしてみたらあっさり出来た。
+OSX 10.8.5 ダメなのかな
+
+導入完了(?) ということで一旦コピペですが導入完了。</description>
+    </item>
+    
+  </channel>
+</rss>
